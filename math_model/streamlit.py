@@ -39,7 +39,7 @@ def draw_st_map(path_df):
     st.pydeck_chart(r)
 
 
-def draw_all(dataset, dataset_statistics):
+def draw_basic_math_model(dataset, dataset_statistics):
     # Text box input
     user_city_input = st.text_input("Enter the origin city:", "Atlanta")
     user_A_input = st.slider(
@@ -48,6 +48,7 @@ def draw_all(dataset, dataset_statistics):
         max_value=5.0,
         step=0.1,
         value=1.0,
+        key="MM-A"
     )
     user_B_input = st.slider(
         "How important is a short distance?",
@@ -55,6 +56,7 @@ def draw_all(dataset, dataset_statistics):
         max_value=5.0,
         step=0.1,
         value=1.0,
+        key="MM-B"
     )
     path_df = get_viable_cities_paths(
         user_city_input,
@@ -170,7 +172,7 @@ def find_top_viable_cities(city_name, dataset, dataset_statistics, top_n=5, A=1,
     viabilities.sort(key=lambda x: x[0], reverse=True)
     return viabilities[:top_n]
 
-
+@st.cache_data
 def get_viable_cities_paths(
     city_1_name, dataset, dataset_statistics, top_n=5, A=1, B=1
 ):
@@ -199,23 +201,29 @@ def get_viable_cities_paths(
 
 
 def get_most_viable_data(data_bundle):
-    city_item, dataset, dataset_statistics = (
+    city_item, dataset, dataset_statistics, A, B, top_n = (
         data_bundle["city_item"],
         data_bundle["dataset"],
         data_bundle["dataset_statistics"],
+        data_bundle["A"],
+        data_bundle["B"],
+        data_bundle["top_n"]
     )
     max_viable_cities = find_top_viable_cities(
-        city_item[NAME], dataset, dataset_statistics=dataset_statistics
+        city_item[NAME], dataset, dataset_statistics, top_n, A, B
     )
     return {"source": city_item, "max_viable_cities": max_viable_cities}
 
 
-def get_most_viable_for_all(dataset, dataset_statistics):
+def get_most_viable_for_all(dataset, dataset_statistics, top_n=5, A=1, B=1):
     max_viable_cities = []
     data_bundle = {
         "city_item": None,
         "dataset": dataset,
         "dataset_statistics": dataset_statistics,
+        "A": A,
+        "B": B,
+        "top_n": top_n,
     }
     for _, city_item in tqdm(dataset.iterrows(), total=len(dataset)):
         data_bundle["city_item"] = city_item
@@ -236,8 +244,8 @@ def get_most_viable_for_all(dataset, dataset_statistics):
 
 
 @st.cache_data
-def get_best_of_best(dataset, dataset_statistics, top_n=5):
-    max_viable_cities = get_most_viable_for_all(dataset, dataset_statistics)
+def get_best_of_best(dataset, dataset_statistics, top_n=5, A=1, B=1):
+    max_viable_cities = get_most_viable_for_all(dataset, dataset_statistics, top_n, A, B)
     max_viable_cities_list = []
     for city_source in max_viable_cities:
         city_source_item = city_source["source"]
@@ -271,7 +279,25 @@ def get_best_of_best(dataset, dataset_statistics, top_n=5):
 
 
 def draw_bbest_tab(dataset, dataset_statistics):
-    bb_path = get_best_of_best(dataset, dataset_statistics, 5)
+    user_A_input = st.slider(
+        "How important is the number of people connected?",
+        min_value=0.0,
+        max_value=5.0,
+        step=0.1,
+        value=1.0,
+        key="BB-A"
+    )
+    user_B_input = st.slider(
+        "How important is a short distance?",
+        min_value=0.0,
+        max_value=5.0,
+        step=0.1,
+        value=1.0,
+        key="BB-B"
+    )
+    bb_path = get_best_of_best(
+        dataset, dataset_statistics, 5, user_A_input, user_B_input
+    )
     draw_st_map(bb_path)
 
 
@@ -289,7 +315,7 @@ if __name__ == "__main__":
 
     with tab1:
         st.title("Math Model")
-        draw_all(dataset, dataset_statistics)
+        draw_basic_math_model(dataset, dataset_statistics)
 
     with tab2:
         st.title("DL Model")
