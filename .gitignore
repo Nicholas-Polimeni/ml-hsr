@@ -1,1 +1,3 @@
 ml-hsr/
+.venv/
+.vscode/
