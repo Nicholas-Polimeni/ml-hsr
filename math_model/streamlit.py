@@ -15,8 +15,31 @@ LONGITUDE = "longitude"
 DATASET_CSV_PATH = "../data/metro_regions.csv"
 
 
-def draw_all(path_df):
-    # path_df["path"] = path_df["path"].apply(lambda x: eval(x))
+def draw_all(dataset, dataset_statistics):
+    # Text box input
+    user_city_input = st.text_input("Enter the origin city:", "Atlanta")
+    user_A_input = st.slider(
+        "How important is the number of people connected?",
+        min_value=0.0,
+        max_value=5.0,
+        step=0.1,
+        value=1.0,
+    )
+    user_B_input = st.slider(
+        "How important is a short distance?",
+        min_value=0.0,
+        max_value=5.0,
+        step=0.1,
+        value=1.0,
+    )
+    path_df = get_viable_cities_paths(
+        user_city_input,
+        dataset,
+        dataset_statistics,
+        5,
+        A=float(user_A_input),
+        B=float(user_B_input),
+    )
 
     st.dataframe(path_df)
 
@@ -181,30 +204,11 @@ dataset_statistics = {
     "max_dist": get_max_dist(get_city_item("Atlanta", dataset), dataset),
 }
 
-# Text box input
-user_city_input = st.text_input("Enter the origin city:", "Atlanta")
-user_A_input = st.slider(
-    "How important is the number of people connected?",
-    min_value=0.0,
-    max_value=5.0,
-    step=0.1,
-    value=1.0,
-)
-user_B_input = st.slider(
-    "How important is a short distance?",
-    min_value=0.0,
-    max_value=5.0,
-    step=0.1,
-    value=1.0,
-)
-df1 = get_viable_cities_paths(
-    user_city_input,
-    dataset,
-    dataset_statistics,
-    5,
-    A=float(user_A_input),
-    B=float(user_B_input),
-)
-print(df1.head())
+tab1, tab2 = st.tabs(["Math Model", "DL Model"])
 
-draw_all(df1)
+with tab1:
+    st.title("Math Model")
+    draw_all(dataset, dataset_statistics)
+
+with tab2:
+    st.title("DL Model")
