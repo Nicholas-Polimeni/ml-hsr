@@ -39,19 +39,17 @@ def draw_all(path_df):
 
 
 def get_dataset(csv_name):
-    dataset = pd.read_csv(csv_name, delimiter=";")
+    dataset = pd.read_csv(csv_name)
     dataset = dataset.drop_duplicates()
 
     # pick columns to use
-    dataset["Latitude"] = dataset["Coordinates"].str.split(",").str[0].astype(float)
-    dataset["Longitude"] = dataset["Coordinates"].str.split(",").str[1].astype(float)
     columns = [
-        "Geoname ID",
-        "Name",
-        "Population",
-        "Country name EN",
-        "Latitude",
-        "Longitude",
+        "geoname_id",
+        "name",
+        "population",
+        "cou_name_en",
+        "latitude",
+        "longitude",
     ]
     dataset = dataset[columns]
     return dataset
@@ -70,12 +68,12 @@ def get_dist(lat1, lon1, lat2, lon2):
 
 
 def get_max_dist(dataset_item, dataset):
-    lat1 = dataset_item["Latitude"]
-    lon1 = dataset_item["Longitude"]
+    lat1 = dataset_item["latitude"]
+    lon1 = dataset_item["longitude"]
     city_max_dist = 0
     for _, row in dataset.iterrows():
-        lat2 = row["Latitude"]
-        lon2 = row["Longitude"]
+        lat2 = row["latitude"]
+        lon2 = row["longitude"]
         dist = get_dist(lat1, lon1, lat2, lon2)
         if dist > city_max_dist:
             city_max_dist = dist
@@ -84,12 +82,12 @@ def get_max_dist(dataset_item, dataset):
 
 def get_city_item(name_or_id, dataset):
     def get_city_with_max_pop(subset):
-        return subset[subset["Population"] == subset["Population"].max()].iloc[0]
+        return subset[subset["population"] == subset["population"].max()].iloc[0]
 
     if isinstance(name_or_id, int):
-        subset = dataset[dataset["Geoname ID"] == name_or_id]
+        subset = dataset[dataset["geoname_id"] == name_or_id]
     else:
-        subset = dataset[dataset["Name"].str.contains(name_or_id) == True]
+        subset = dataset[dataset["name"].str.contains(name_or_id) == True]
     return get_city_with_max_pop(subset)
 
 
@@ -101,11 +99,11 @@ def get_viability(city_1, city_2, dataset, dataset_statistics, A=1, B=1, verbose
         dataset_statistics["min_dist"],
         dataset_statistics["max_dist"],
     )
-    pop_1 = city_1["Population"]
-    pop_2 = city_2["Population"]
+    pop_1 = city_1["population"]
+    pop_2 = city_2["population"]
     sum_pop = pop_1 + pop_2
     dist = get_dist(
-        city_1["Latitude"], city_1["Longitude"], city_2["Latitude"], city_2["Longitude"]
+        city_1["latitude"], city_1["longitude"], city_2["latitude"], city_2["longitude"]
     )
     normalized_pop = (sum_pop - min_pop) / (max_pop + avg_pop - min_pop)
     normalized_dist = (dist - min_dist) / (max_dist - min_dist)
@@ -119,7 +117,7 @@ def find_most_viable_city(city_name, dataset):
     max_viability = 0
     max_viable_city = None
     for _, row in dataset.iterrows():
-        if row["Geoname ID"] != city["Geoname ID"]:
+        if row["geoname_id"] != city["geoname_id"]:
             viability = get_viability(city, row, dataset)
             if viability > max_viability:
                 max_viability = viability
@@ -131,7 +129,7 @@ def find_top_viable_cities(city_name, dataset, dataset_statistics, top_n=5, A=1,
     city = get_city_item(city_name, dataset)
     viabilities = []
     for _, row in dataset.iterrows():
-        if row["Geoname ID"] != city["Geoname ID"]:
+        if row["geoname_id"] != city["geoname_id"]:
             viability = get_viability(city, row, dataset, dataset_statistics, A, B)
             viabilities.append((viability, row))
     viabilities.sort(key=lambda x: x[0], reverse=True)
@@ -151,11 +149,11 @@ def get_viable_cities_paths(
         paths_dict.append(
             {
                 "path": [
-                    [city_1["Longitude"], city_1["Latitude"]],
-                    [city_2["Longitude"], city_2["Latitude"]],
+                    [city_1["longitude"], city_1["latitude"]],
+                    [city_2["longitude"], city_2["latitude"]],
                 ],
                 "viability": f"{city[0] * 100}%",
-                "city_2": city_2["Name"],
+                "city_2": city_2["name"],
             }
         )
     red = Color("red")
@@ -165,11 +163,11 @@ def get_viable_cities_paths(
     return pd.DataFrame(paths_dict)
 
 
-dataset = get_dataset("geonames.csv")
+dataset = get_dataset("../data/city_proper_over_1000.csv")
 dataset_statistics = {
-    "min_pop": dataset["Population"].min(),
-    "max_pop": dataset["Population"].max(),
-    "avg_pop": dataset["Population"].mean(),
+    "min_pop": dataset["population"].min(),
+    "max_pop": dataset["population"].max(),
+    "avg_pop": dataset["population"].mean(),
     "min_dist": 0,
     "max_dist": get_max_dist(get_city_item("Atlanta", dataset), dataset),
 }
