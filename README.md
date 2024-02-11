@@ -8,6 +8,7 @@ Determine which two cities are best to connect given how important you want the 
 > Contributors: Faris Durrani, Nicholas Polimeni, Haruto Tanaka, Matthias Druhl
 
 ## The problem City Transportation Connect solves
+
 > From the Devfolio project page
 
 We want to connect two cities through some public transportation system. The initial idea is to find which city pair is best suited for a high-speed rail (HSR) connection but it expanded into encompassing all transportation systems for maximum flexibility.
@@ -32,7 +33,12 @@ streamlit run streamlit.py
 
 3. Go to the link provided in the terminal
 
-# License
+## Data sources
+
+1. [Cities with population > 1000](https://public.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000/export/?flg=en-us&disjunctive.cou_name_en&sort=name)
+2. [China High Speed Railways and Stations (2016)](https://doi.org/10.7910/DVN/JIISNB)
+
+## License
 
 This project is MIT licensed, as found in the [LICENSE](./LICENSE) file.
 
