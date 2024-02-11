@@ -14,7 +14,7 @@ POPULATION = "population"
 COU_NAME_EN = "country_code"
 LATITUDE = "latitude"
 LONGITUDE = "longitude"
-DATASET_CSV_PATH = "../data/metro_regions.csv"
+DATASET_CSV_PATH = "data/metro_regions.csv"
 
 
 def draw_st_map(path_df):
@@ -48,7 +48,7 @@ def draw_basic_math_model(dataset, dataset_statistics):
         max_value=5.0,
         step=0.1,
         value=1.0,
-        key="MM-A"
+        key="MM-A",
     )
     user_B_input = st.slider(
         "How important is a short distance?",
@@ -56,7 +56,7 @@ def draw_basic_math_model(dataset, dataset_statistics):
         max_value=5.0,
         step=0.1,
         value=1.0,
-        key="MM-B"
+        key="MM-B",
     )
     path_df = get_viable_cities_paths(
         user_city_input,
@@ -66,6 +66,8 @@ def draw_basic_math_model(dataset, dataset_statistics):
         A=float(user_A_input),
         B=float(user_B_input),
     )
+    if path_df is None:
+        return
 
     def hex_to_rgb(h):
         h = h.lstrip("#")
@@ -125,6 +127,8 @@ def get_city_item(name_or_id, dataset):
         subset = dataset[dataset[GEONAME_ID] == name_or_id]
     else:
         subset = dataset[dataset[NAME].str.contains(name_or_id) == True]
+    if subset.empty:
+        return None
     return get_city_with_max_pop(subset)
 
 
@@ -172,11 +176,15 @@ def find_top_viable_cities(city_name, dataset, dataset_statistics, top_n=5, A=1,
     viabilities.sort(key=lambda x: x[0], reverse=True)
     return viabilities[:top_n]
 
+
 @st.cache_data
 def get_viable_cities_paths(
     city_1_name, dataset, dataset_statistics, top_n=5, A=1, B=1
 ):
     city_1 = get_city_item(city_1_name, dataset)
+    if city_1 is None:
+        st.error(f"City {city_1_name} not found in the dataset.")
+        return None
     most_viable_cities = find_top_viable_cities(
         city_1_name, dataset, dataset_statistics, top_n, A, B
     )
@@ -185,8 +193,8 @@ def get_viable_cities_paths(
         city_2 = city[1]
         paths_dict.append(
             {
-                "city_2": city_2[NAME],
-                "viability": f"{city[0] * 100}%",
+                "Destination": city_2[NAME],
+                "Viability": f"{city[0] * 100:.2f}%",
                 "path": [
                     [city_1[LONGITUDE], city_1[LATITUDE]],
                     [city_2[LONGITUDE], city_2[LATITUDE]],
@@ -207,7 +215,7 @@ def get_most_viable_data(data_bundle):
         data_bundle["dataset_statistics"],
         data_bundle["A"],
         data_bundle["B"],
-        data_bundle["top_n"]
+        data_bundle["top_n"],
     )
     max_viable_cities = find_top_viable_cities(
         city_item[NAME], dataset, dataset_statistics, top_n, A, B
@@ -245,7 +253,9 @@ def get_most_viable_for_all(dataset, dataset_statistics, top_n=5, A=1, B=1):
 
 @st.cache_data
 def get_best_of_best(dataset, dataset_statistics, top_n=5, A=1, B=1):
-    max_viable_cities = get_most_viable_for_all(dataset, dataset_statistics, top_n, A, B)
+    max_viable_cities = get_most_viable_for_all(
+        dataset, dataset_statistics, top_n, A, B
+    )
     max_viable_cities_list = []
     for city_source in max_viable_cities:
         city_source_item = city_source["source"]
@@ -285,7 +295,7 @@ def draw_bbest_tab(dataset, dataset_statistics):
         max_value=5.0,
         step=0.1,
         value=1.0,
-        key="BB-A"
+        key="BB-A",
     )
     user_B_input = st.slider(
         "How important is a short distance?",
@@ -293,7 +303,7 @@ def draw_bbest_tab(dataset, dataset_statistics):
         max_value=5.0,
         step=0.1,
         value=1.0,
-        key="BB-B"
+        key="BB-B",
     )
     bb_path = get_best_of_best(
         dataset, dataset_statistics, 5, user_A_input, user_B_input
@@ -311,12 +321,25 @@ if __name__ == "__main__":
         "max_dist": get_max_dist(get_city_item("Atlanta", dataset), dataset),
     }
 
-    tab1, tab2 = st.tabs(["Math Model", "DL Model"])
+    st.title("City Transportation Connect")
+    st.caption(
+        "Determine which two cities are best to connect given how important you want the number of people connected or the distance between them"
+    )
+    st.caption("GitHub Repo: https://github.com/Nicholas-Polimeni/ml-hsr")
+
+    tab1, tab2 = st.tabs(["One-way Model", "Overall"])
 
     with tab1:
-        st.title("Math Model")
+        st.title("One-way Model")
+        st.text(
+            "This model is based on the user's input of the origin city and the importance of the number of people connected and the distance."
+        )
         draw_basic_math_model(dataset, dataset_statistics)
 
     with tab2:
-        st.title("DL Model")
+        st.title("Overall")
+        st.text(
+            "This model is based on the overall importance of the number of people connected and the distance. The system will give you the top 5 most viable city pairs in the dataset."
+        )
         draw_bbest_tab(dataset, dataset_statistics)
+
