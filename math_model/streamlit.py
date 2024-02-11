@@ -261,8 +261,7 @@ if __name__ == "__main__":
         "max_dist": get_max_dist(get_city_item("Atlanta", dataset), dataset),
     }
 
-    # bb = get_best_of_best(dataset, dataset_statistics, 5)
-    # print(bb)
+    
 
     tab1, tab2 = st.tabs(["Math Model", "DL Model"])
 
@@ -272,3 +271,5 @@ if __name__ == "__main__":
 
     with tab2:
         st.title("DL Model")
+        bb = get_best_of_best(dataset, dataset_statistics, 5)
+        print(bb)
