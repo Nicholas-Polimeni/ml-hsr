@@ -172,7 +172,7 @@ def get_viable_cities_paths(
 
 
 dataset = get_dataset(DATASET_CSV_PATH)
-print(dataset['metro'])
+print(dataset["metro"])
 dataset_statistics = {
     "min_pop": dataset[POPULATION].min(),
     "max_pop": dataset[POPULATION].max(),
