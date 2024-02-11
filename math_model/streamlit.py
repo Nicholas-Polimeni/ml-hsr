@@ -6,6 +6,8 @@ import pandas as pd
 import pydeck as pdk
 import streamlit as st
 
+# from multiprocess import Pool
+
 GEONAME_ID = "metro"
 NAME = "metro"
 POPULATION = "population"
@@ -15,17 +17,8 @@ LONGITUDE = "longitude"
 DATASET_CSV_PATH = "../data/metro_regions.csv"
 
 
-def draw_all(path_df):
-    # path_df["path"] = path_df["path"].apply(lambda x: eval(x))
-
+def draw_st_map(path_df):
     st.dataframe(path_df)
-
-    def hex_to_rgb(h):
-        h = h.lstrip("#")
-        return tuple(int(h[i : i + 2], 16) for i in (0, 2, 4))
-
-    path_df["color"] = path_df["color"].apply(hex_to_rgb)
-
     view_state = pdk.ViewState(latitude=37.782556, longitude=-122.3484867, zoom=2)
 
     layer = pdk.Layer(
@@ -44,6 +37,42 @@ def draw_all(path_df):
     )
 
     st.pydeck_chart(r)
+
+
+def draw_basic_math_model(dataset, dataset_statistics):
+    # Text box input
+    user_city_input = st.text_input("Enter the origin city:", "Atlanta")
+    user_A_input = st.slider(
+        "How important is the number of people connected?",
+        min_value=0.0,
+        max_value=5.0,
+        step=0.1,
+        value=1.0,
+        key="MM-A"
+    )
+    user_B_input = st.slider(
+        "How important is a short distance?",
+        min_value=0.0,
+        max_value=5.0,
+        step=0.1,
+        value=1.0,
+        key="MM-B"
+    )
+    path_df = get_viable_cities_paths(
+        user_city_input,
+        dataset,
+        dataset_statistics,
+        5,
+        A=float(user_A_input),
+        B=float(user_B_input),
+    )
+
+    def hex_to_rgb(h):
+        h = h.lstrip("#")
+        return tuple(int(h[i : i + 2], 16) for i in (0, 2, 4))
+
+    path_df["color"] = path_df["color"].apply(hex_to_rgb)
+    draw_st_map(path_df)
 
 
 def get_dataset(csv_name):
@@ -143,7 +172,7 @@ def find_top_viable_cities(city_name, dataset, dataset_statistics, top_n=5, A=1,
     viabilities.sort(key=lambda x: x[0], reverse=True)
     return viabilities[:top_n]
 
-
+@st.cache_data
 def get_viable_cities_paths(
     city_1_name, dataset, dataset_statistics, top_n=5, A=1, B=1
 ):
@@ -171,40 +200,123 @@ def get_viable_cities_paths(
     return pd.DataFrame(paths_dict)
 
 
-dataset = get_dataset(DATASET_CSV_PATH)
-print(dataset["metro"])
-dataset_statistics = {
-    "min_pop": dataset[POPULATION].min(),
-    "max_pop": dataset[POPULATION].max(),
-    "avg_pop": dataset[POPULATION].mean(),
-    "min_dist": 0,
-    "max_dist": get_max_dist(get_city_item("Atlanta", dataset), dataset),
-}
+def get_most_viable_data(data_bundle):
+    city_item, dataset, dataset_statistics, A, B, top_n = (
+        data_bundle["city_item"],
+        data_bundle["dataset"],
+        data_bundle["dataset_statistics"],
+        data_bundle["A"],
+        data_bundle["B"],
+        data_bundle["top_n"]
+    )
+    max_viable_cities = find_top_viable_cities(
+        city_item[NAME], dataset, dataset_statistics, top_n, A, B
+    )
+    return {"source": city_item, "max_viable_cities": max_viable_cities}
 
-# Text box input
-user_city_input = st.text_input("Enter the origin city:", "Atlanta")
-user_A_input = st.slider(
-    "How important is the number of people connected?",
-    min_value=0.0,
-    max_value=5.0,
-    step=0.1,
-    value=1.0,
-)
-user_B_input = st.slider(
-    "How important is a short distance?",
-    min_value=0.0,
-    max_value=5.0,
-    step=0.1,
-    value=1.0,
-)
-df1 = get_viable_cities_paths(
-    user_city_input,
-    dataset,
-    dataset_statistics,
-    5,
-    A=float(user_A_input),
-    B=float(user_B_input),
-)
-print(df1.head())
 
-draw_all(df1)
+def get_most_viable_for_all(dataset, dataset_statistics, top_n=5, A=1, B=1):
+    max_viable_cities = []
+    data_bundle = {
+        "city_item": None,
+        "dataset": dataset,
+        "dataset_statistics": dataset_statistics,
+        "A": A,
+        "B": B,
+        "top_n": top_n,
+    }
+    for _, city_item in tqdm(dataset.iterrows(), total=len(dataset)):
+        data_bundle["city_item"] = city_item
+        max_viable_cities.append(get_most_viable_data(data_bundle))
+    # with Pool(4) as p:
+    #     max_viable_cities = p.map(
+    #         get_most_viable_data,
+    #         (
+    #             {
+    #                 "city_item": row,
+    #                 "dataset": dataset,
+    #                 "dataset_statistics": dataset_statistics,
+    #             }
+    #             for _, row in dataset.iterrows()
+    #         ),
+    #     )
+    return max_viable_cities
+
+
+@st.cache_data
+def get_best_of_best(dataset, dataset_statistics, top_n=5, A=1, B=1):
+    max_viable_cities = get_most_viable_for_all(dataset, dataset_statistics, top_n, A, B)
+    max_viable_cities_list = []
+    for city_source in max_viable_cities:
+        city_source_item = city_source["source"]
+        for viable_city in city_source["max_viable_cities"]:
+            max_viable_cities_list.append(
+                {
+                    "source": city_source_item[NAME],
+                    "destination": viable_city[1][NAME],
+                    "path": [
+                        [city_source_item[LONGITUDE], city_source_item[LATITUDE]],
+                        [viable_city[1][LONGITUDE], viable_city[1][LATITUDE]],
+                    ],
+                    "viability": viable_city[0],
+                    "color": "red",
+                }
+            )
+    max_viable_cities_df = pd.DataFrame(max_viable_cities_list)
+    max_viable_cities_df = max_viable_cities_df.sort_values(
+        by=["viability"], ascending=False
+    )
+    best_of_best = max_viable_cities_df[: top_n * 2 : 2]
+    best_of_best.reset_index(drop=True, inplace=True)
+
+    # add color
+    red = Color("red")
+    colors = list(red.range_to(Color("green"), len(best_of_best)))
+    for i, _ in best_of_best.iterrows():
+        rgb_color = [int(c * 255) for c in colors[i].rgb]
+        best_of_best.at[i, "color"] = rgb_color
+    return best_of_best
+
+
+def draw_bbest_tab(dataset, dataset_statistics):
+    user_A_input = st.slider(
+        "How important is the number of people connected?",
+        min_value=0.0,
+        max_value=5.0,
+        step=0.1,
+        value=1.0,
+        key="BB-A"
+    )
+    user_B_input = st.slider(
+        "How important is a short distance?",
+        min_value=0.0,
+        max_value=5.0,
+        step=0.1,
+        value=1.0,
+        key="BB-B"
+    )
+    bb_path = get_best_of_best(
+        dataset, dataset_statistics, 5, user_A_input, user_B_input
+    )
+    draw_st_map(bb_path)
+
+
+if __name__ == "__main__":
+    dataset = get_dataset(DATASET_CSV_PATH)
+    dataset_statistics = {
+        "min_pop": dataset[POPULATION].min(),
+        "max_pop": dataset[POPULATION].max(),
+        "avg_pop": dataset[POPULATION].mean(),
+        "min_dist": 0,
+        "max_dist": get_max_dist(get_city_item("Atlanta", dataset), dataset),
+    }
+
+    tab1, tab2 = st.tabs(["Math Model", "DL Model"])
+
+    with tab1:
+        st.title("Math Model")
+        draw_basic_math_model(dataset, dataset_statistics)
+
+    with tab2:
+        st.title("DL Model")
+        draw_bbest_tab(dataset, dataset_statistics)
