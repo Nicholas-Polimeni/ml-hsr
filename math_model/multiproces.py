@@ -136,6 +136,12 @@ def get_viable_cities_paths(
 
 
 dataset = get_dataset("geonames.csv")
+
+# remove empty rows
+dataset = dataset.dropna()
+print(len(dataset))
+
+dataset = dataset[dataset["Country name EN"] == "United States"]
 dataset_statistics = {
     "min_pop": dataset["Population"].min(),
     "max_pop": dataset["Population"].max(),
@@ -156,26 +162,26 @@ df1 = get_viable_cities_paths(
     A=float(user_A_input),
     B=float(user_B_input),
 )
-print(df1.head())
-
-from multiprocessing import Pool
-
 
 from multiprocessing import Pool
 
 
 def get_most_viable_data(city_item):
-    print(33)
+    print(city_item["Name"])
     city = city_item
     max_viable_cities = find_top_viable_cities(
         city["Name"], dataset, dataset_statistics=dataset_statistics
     )
-    return {"city_i": city["Geoname ID"], "max_viable_cities": max_viable_cities}
+    return {"genome_id": city["Geoname ID"], "max_viable_cities": max_viable_cities}
+
 
 from tqdm.contrib.concurrent import process_map
 
+
 def get_most_viable_for_all(dataset):
-    max_viable_cities = process_map(get_most_viable_data, dataset.to_dict("records"), max_workers=7)
+    max_viable_cities = process_map(
+        get_most_viable_data, dataset.to_dict("records"), max_workers=5, chunksize=1
+    )
 
     return max_viable_cities
 
@@ -183,8 +189,3 @@ def get_most_viable_for_all(dataset):
 if __name__ == "__main__":
     max_viable_cities = get_most_viable_for_all(dataset)
     print(max_viable_cities)
-
-# return max_viable_cities
-
-
-# get_most_viable_for_all(dataset)
