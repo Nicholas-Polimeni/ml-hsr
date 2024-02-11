@@ -5,7 +5,8 @@ import numpy as np
 import pandas as pd
 import pydeck as pdk
 import streamlit as st
-from multiprocess import Pool
+
+# from multiprocess import Pool
 
 GEONAME_ID = "metro"
 NAME = "metro"
@@ -14,6 +15,28 @@ COU_NAME_EN = "country_code"
 LATITUDE = "latitude"
 LONGITUDE = "longitude"
 DATASET_CSV_PATH = "../data/metro_regions.csv"
+
+
+def draw_st_map(path_df):
+    st.dataframe(path_df)
+    view_state = pdk.ViewState(latitude=37.782556, longitude=-122.3484867, zoom=2)
+
+    layer = pdk.Layer(
+        type="PathLayer",
+        data=path_df,
+        pickable=True,
+        get_color="color",
+        width_scale=20,
+        width_min_pixels=2,
+        get_path="path",
+        get_width=5,
+    )
+
+    r = pdk.Deck(
+        layers=[layer], initial_view_state=view_state, tooltip={"text": "{name}"}
+    )
+
+    st.pydeck_chart(r)
 
 
 def draw_all(dataset, dataset_statistics):
@@ -42,32 +65,12 @@ def draw_all(dataset, dataset_statistics):
         B=float(user_B_input),
     )
 
-    st.dataframe(path_df)
-
     def hex_to_rgb(h):
         h = h.lstrip("#")
         return tuple(int(h[i : i + 2], 16) for i in (0, 2, 4))
 
     path_df["color"] = path_df["color"].apply(hex_to_rgb)
-
-    view_state = pdk.ViewState(latitude=37.782556, longitude=-122.3484867, zoom=2)
-
-    layer = pdk.Layer(
-        type="PathLayer",
-        data=path_df,
-        pickable=True,
-        get_color="color",
-        width_scale=20,
-        width_min_pixels=2,
-        get_path="path",
-        get_width=5,
-    )
-
-    r = pdk.Deck(
-        layers=[layer], initial_view_state=view_state, tooltip={"text": "{name}"}
-    )
-
-    st.pydeck_chart(r)
+    draw_st_map(path_df)
 
 
 def get_dataset(csv_name):
@@ -209,23 +212,30 @@ def get_most_viable_data(data_bundle):
 
 def get_most_viable_for_all(dataset, dataset_statistics):
     max_viable_cities = []
-    with Pool(4) as p:
-        max_viable_cities = p.map(
-            get_most_viable_data,
-            (
-                {
-                    "city_item": row,
-                    "dataset": dataset,
-                    "dataset_statistics": dataset_statistics,
-                }
-                for _, row in dataset.iterrows()
-            ),
-        )
-    # for _, city_item in tqdm(dataset.iterrows(), total=len(dataset)):
-    #     max_viable_cities.append(get_most_viable_data(city_item))
+    data_bundle = {
+        "city_item": None,
+        "dataset": dataset,
+        "dataset_statistics": dataset_statistics,
+    }
+    for _, city_item in tqdm(dataset.iterrows(), total=len(dataset)):
+        data_bundle["city_item"] = city_item
+        max_viable_cities.append(get_most_viable_data(data_bundle))
+    # with Pool(4) as p:
+    #     max_viable_cities = p.map(
+    #         get_most_viable_data,
+    #         (
+    #             {
+    #                 "city_item": row,
+    #                 "dataset": dataset,
+    #                 "dataset_statistics": dataset_statistics,
+    #             }
+    #             for _, row in dataset.iterrows()
+    #         ),
+    #     )
     return max_viable_cities
 
 
+@st.cache_data
 def get_best_of_best(dataset, dataset_statistics, top_n=5):
     max_viable_cities = get_most_viable_for_all(dataset, dataset_statistics)
     max_viable_cities_list = []
@@ -235,20 +245,34 @@ def get_best_of_best(dataset, dataset_statistics, top_n=5):
             max_viable_cities_list.append(
                 {
                     "source": city_source_item[NAME],
-                    "source_lat": city_source_item[LATITUDE],
-                    "source_lon": city_source_item[LONGITUDE],
                     "destination": viable_city[1][NAME],
-                    "destination_lat": viable_city[1][LATITUDE],
-                    "destination_lon": viable_city[1][LONGITUDE],
+                    "path": [
+                        [city_source_item[LONGITUDE], city_source_item[LATITUDE]],
+                        [viable_city[1][LONGITUDE], viable_city[1][LATITUDE]],
+                    ],
                     "viability": viable_city[0],
+                    "color": "red",
                 }
             )
     max_viable_cities_df = pd.DataFrame(max_viable_cities_list)
     max_viable_cities_df = max_viable_cities_df.sort_values(
         by=["viability"], ascending=False
     )
-    best_of_best = max_viable_cities_df.head(top_n)
+    best_of_best = max_viable_cities_df[: top_n * 2 : 2]
+    best_of_best.reset_index(drop=True, inplace=True)
+
+    # add color
+    red = Color("red")
+    colors = list(red.range_to(Color("green"), len(best_of_best)))
+    for i, _ in best_of_best.iterrows():
+        rgb_color = [int(c * 255) for c in colors[i].rgb]
+        best_of_best.at[i, "color"] = rgb_color
     return best_of_best
+
+
+def draw_bbest_tab(dataset, dataset_statistics):
+    bb_path = get_best_of_best(dataset, dataset_statistics, 5)
+    draw_st_map(bb_path)
 
 
 if __name__ == "__main__":
@@ -261,8 +285,6 @@ if __name__ == "__main__":
         "max_dist": get_max_dist(get_city_item("Atlanta", dataset), dataset),
     }
 
-    
-
     tab1, tab2 = st.tabs(["Math Model", "DL Model"])
 
     with tab1:
@@ -271,5 +293,4 @@ if __name__ == "__main__":
 
     with tab2:
         st.title("DL Model")
-        bb = get_best_of_best(dataset, dataset_statistics, 5)
-        print(bb)
+        draw_bbest_tab(dataset, dataset_statistics)
