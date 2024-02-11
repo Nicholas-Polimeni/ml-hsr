@@ -1,0 +1,1132 @@
+metro,country_code,population,cities,latitude,longitude
+Shenzhen,CN,36825407,"['Nam Cheong' 'Wan Chai' 'Tseung Kwan O' 'Tai Koo' 'Mei Foo'
+ 'Sau Mau Ping' 'Sai Kung' 'Mong Kok' 'Kwai Chung' 'Shilong' 'Tai Po'
+ 'Pok Fu Lam' 'Jordan' 'Yuen Long' 'Yuen Long Kau Hui' 'Tsing Yi Town'
+ 'Ping Shan' 'San Tung Chung Hang' 'Kai Tak' 'Sha Tin' 'Wong Tai Sin'
+ 'Choi Wun' 'Fanling' 'Hong Kong' 'Sha Tin Wai' 'Tai Kok Tsui' 'Danshui'
+ 'Whampoa' 'Tsuen Wan' 'Humen' 'Yau Tong' 'Ma On Shan' 'Luoyang'
+ 'Tin Shui Wai' 'Hang Hau' 'Victoria' 'Zhuhai' 'Zhongshan' 'Shiqi'
+ 'Yuen Long San Hui' 'Pat Heung' 'Tsz Wan Shan' 'Sham Shui Po'
+ 'Siu Lek Yuen' 'Tung Chung' 'Kowloon' 'Dongguan' 'Huizhou' 'Aberdeen'
+ 'Tuen Mun' 'Tiu Keng Leng']",22.54554000000197,114.0682999999967
+Tokyo,JP,23736774,"['Oami' 'Higashikurume' 'Wako' 'Ushiku' 'Togane' 'Zushi' 'Naka' 'Honcho'
+ 'Chofu' 'Chiba' 'Ebina' 'Gyoda' 'Kokubunji' 'Tachikawa' 'Shiki' 'Hanno'
+ 'Nakano' 'Mobara' 'Yoshikawa' 'Soka' 'Ome' 'Niiza' 'Isehara' 'Oi' 'Fuchu'
+ 'Sakura' 'Toride' 'Hachioji' 'Iwai' 'Kamirenjaku' 'Abiko' 'Hiratsuka'
+ 'Kodaira' 'Iruma' 'Iwatsuki' 'Machida' 'Moriya' 'Hasuda' 'Musashino'
+ 'Nagareyama' 'Koga' 'Satte' 'Kiyose' 'Fujishiro' 'Shiraoka' 'Kazo'
+ 'Kasukabe' 'Yachimata' 'Yamato' 'Oiso' 'Yokohama' 'Kimitsu' 'Kawagoe'
+ 'Fujisawa' 'Tokorozawa' 'Sugito' 'Tanashicho' 'Kamakura' 'Chichibu'
+ 'Shiroi' 'Zama' 'Kawasaki' 'Kisarazu' 'Kashiwa' 'Narita' 'Hidaka'
+ 'Kawaguchi' 'Kumagaya' 'Hatogaya-honcho' 'Ami' 'Nishi-Tokyo-shi' 'Miura'
+ 'Saitama' 'Yashio' 'Tama' 'Inashiki' 'Kamifukuoka' 'Matsudo' 'Konosu'
+ 'Hino' 'Morohongo' 'Akishima' 'Shimotoda' 'Futtsu' 'Yono' 'Okegawa'
+ 'Inzai' 'Hadano' 'Hamura' 'Higashimurayama' 'Sakado' 'Mitsukaido'
+ 'Chigasaki' 'Noda' 'Fussa' 'Yotsukaido' 'Hanyu' 'Koshigaya' 'Urayasu'
+ 'Atsugi' 'Ageoshimo' 'Ichihara' 'Sayama' 'Asaka' 'Ryugasaki' 'Yokosuka'
+ 'Tatebayashi' 'Minamirinkan' 'Kukichuo']",35.689499999999214,139.6917100000032
+Langfang,CN,30051058,['Tianjin' 'Beijing'],39.5207899999986,116.71471000000363
+Shanghai,CN,4165757,['Songjiang' 'Huilong' 'Taicang' 'Zhabei' 'Jiashan' 'Zhujiajiao' 'Kunshan'],31.2222199999976,121.45806000000115
+New York City,US,16427587,"['The Bronx' 'Woodhaven' 'Hoboken' 'Wakefield' 'Piscataway' 'Throgs Neck'
+ 'Elmhurst' 'East Meadow' 'New Brunswick' 'Montclair' 'East Flatbush'
+ 'Morningside Heights' 'Queens Village' 'Sunnyside' 'Greenpoint'
+ 'East Harlem' 'Clifton' 'Sheepshead Bay' 'West Babylon' 'Bensonhurst'
+ 'Morris Heights' 'Ridgewood' 'Cypress Hills' 'Richmond Hill'
+ 'Huntington Station' 'Harlem' 'Borough Park' 'West New York' 'Bath Beach'
+ 'Woodside' 'Glendale' 'Rego Park' 'Hicksville' 'Flatlands' 'Williamsburg'
+ 'Passaic' 'Sayreville Junction' 'Union' 'Flatbush' 'Greenburgh'
+ 'Park Slope' 'Yonkers' 'Mott Haven' 'Levittown' 'Hempstead' 'Marlboro'
+ 'Elizabeth' 'Elmont' 'North Bergen' 'Hillsborough' 'Jackson Heights'
+ 'New Rochelle' 'South Ozone Park' 'Financial District' 'Kensington'
+ 'Bridgewater' 'Bloomfield' 'Jamaica' 'Brownsville' 'Coney Island'
+ 'Whitestone' 'West Orange' 'Far Rockaway' 'East Brunswick' 'Fair Lawn'
+ 'Brooklyn' 'Maspeth' 'Kearny' 'Canarsie' 'Linden' 'Dyker Heights'
+ 'Manhattan' 'Middletown' 'East Village' 'Fordham' 'Kings Bridge'
+ 'Staten Island' 'Corona' 'Chinatown' 'Newark' 'Hackensack'
+ 'Kew Gardens Hills' 'Briarwood' 'Belleville' 'Sunset Park' 'Queens'
+ 'East New York' 'Mount Vernon' 'Wayne' 'Bayside' 'New City' 'Jersey City'
+ 'Bushwick' 'Ozone Park' 'Valley Stream' 'White Plains' 'Stamford'
+ 'Orange' 'Sayreville' 'Perth Amboy' 'Paterson' 'Bayonne' 'East Orange'
+ 'Astoria' 'Edison' 'Teaneck' 'Forest Hills' 'Irvington'
+ 'Washington Heights' ""Hell's Kitchen"" 'Fort Lee' 'Oceanside' 'Plainfield'
+ 'Union City' 'Freeport' 'Long Beach' 'Parkchester' 'Spring Valley'
+ 'Parsippany']",40.71426999999909,-74.00596999999748
+Jakarta,ID,13913082,"['Depok' 'Cikupa' 'Caringin' 'Tangerang' 'Sukabumi' 'Cianjur' 'Parung'
+ 'Citeureup' 'Bogor' 'Cileungsir' 'Pasarkemis' 'Purwakarta' 'Curug'
+ 'Serpong' 'Cibinong' 'Cicurug' 'Kresek' 'Cikarang' 'Sepatan' 'Serang'
+ 'Ciputat' 'Ciampea' 'Bekasi' 'South Tangerang' 'Sawangan' 'Cikampek'
+ 'Teluknaga' 'Rengasdengklok' 'Rangkasbitung' 'Pamulang']",-6.214620000000758,106.84512999999893
+Seoul,KR,11834000,"['Icheon-si' 'Seongnam-si' 'Guri-si' 'Pubal' 'Uijeongbu-si' 'Gapyeong'
+ 'Gwangmyeong' 'Anyang-si' 'Yangju' 'Namyangju' 'Osan' ""Yangp'yong""
+ 'Bucheon-si' 'Hwado' 'Wabu' 'Goyang-si' 'Suwon' 'Gunpo' 'Incheon'
+ 'Hwaseong-si' 'Ansan-si' 'Hanam' 'Munsan' 'Gwangju']",37.566000000000955,126.9784000000035
+Istanbul,TR,6801193,"['UEskuedar' 'Maltepe' 'Eminoenue' 'Bahcelievler' 'Esenyurt' 'Zeytinburnu'
+ 'Sultangazi' 'Atasehir' 'Sultanbeyli' 'guengoeren merter' 'Sisli'
+ 'Yalova' 'Silivri' 'Gebze' 'Kavakli' 'Bueyuekcekmece'
+ 'Merter Keresteciler' 'Esenler' 'Arnavutkoey' 'Beylikduezue' 'Umraniye'
+ 'Basaksehir' 'Bagcilar' 'Sancaktepe']",41.0138399999969,28.949659999996403
+Wuxi,CN,13071777,['Jiangyin' 'Yixing' 'Changzhou' 'Suzhou'],31.5688700000004,120.28856999999961
+London,GB,8214498,"['Islington' 'Gillingham' 'Canary Wharf' 'Canvey Island' 'Wembley'
+ 'Welling' 'Watford' 'Brent' 'Southall' 'Holloway' 'Esher' 'St Albans'
+ 'Stamford Hill' 'Brentwood' 'Uxbridge' 'Tottenham' 'Putney' 'Heston'
+ 'Hounslow' 'Brixton' 'Croydon' 'Slough' 'Finchley' 'High Wycombe'
+ 'Chelmsford' 'Harrow' 'Battersea' 'Greenford' 'Hemel Hempstead'
+ 'Streatham' 'Willesden' 'Walthamstow' 'Bishops Stortford' 'Bracknell'
+ 'Dagenham' 'Enfield Town' 'Fulham' 'Tonbridge' 'Farnborough' 'Crawley'
+ 'Maidenhead' 'Cricklewood' 'Woking' 'Basildon' 'Chingford' 'Dartford'
+ 'Edmonton' 'Archway' 'Billericay' 'Hatfield' 'Reigate' 'Leytonstone'
+ 'Chelsea' 'Grays' 'Stratford' 'Peckham' 'Banstead' 'Chiswick' 'Hayes'
+ 'Leatherhead' 'Chatham' 'Cheshunt' 'Borehamwood' 'Windsor'
+ 'Welwyn Garden City' 'Sutton' 'Shepherds Bush' 'Purley' 'Mitcham'
+ 'Harlow' 'Eltham' 'Acton' 'Surbiton' 'Strood' 'Carshalton'
+ 'South Croydon' 'South Benfleet' 'Gravesend' 'Ewell' 'Ilford' 'Romford'
+ 'City of Westminster' 'Becontree' 'Wimbledon' 'Wickford' 'Staines'
+ 'Luton' 'Hoddesdon' 'Guildford' 'Redhill' 'Morden' 'Beckenham' 'Barking'
+ 'Stevenage' 'Royal Tunbridge Wells' 'Catford' 'Bexley']",51.50853000000229,-0.12573999999688984
+Osaka,JP,14313749,"['Muko' 'Moriguchi' 'Tenri' 'Kainan' 'Habikino' 'Kawanishi' 'Wakayama'
+ 'Tondabayashicho' 'Kyoto' 'Kato' 'Ikoma' 'Iga' 'Takatsuki' 'Kadoma'
+ 'Nara-shi' 'Izumiotsu' 'Arashiyama' 'Katsuragi' 'Ibaraki' 'Gojo'
+ 'Sakurai' 'Mino' 'Kusatsu' 'Toyonaka' 'Nishinomiya-hama' 'Ikeda' 'Ashiya'
+ 'Kasai' 'Tawaramoto' 'Takarazuka' 'Akashi' 'Yao' 'Uji' 'Tanabe'
+ 'Izumisano' 'Hannan' 'Neyagawa' 'Daito' 'Otsu' 'Minato' 'Konan'
+ 'Moriyama' 'Ueno-ebisumachi' 'Kameoka' 'Itami' 'Miki' 'Nishiwaki'
+ 'Sandacho' 'Hashimoto' 'Iwade' 'Kashihara-shi' 'Ritto' 'Sakai' 'Yasu'
+ 'Kakogawacho-honmachi' 'Kaizuka' 'Ono' 'Higashi-osaka' 'Sasayama' 'Kobe'
+ 'Matsubara' 'Nabari' 'Takaishi' 'Amagasaki' 'Izumi' 'Hirakata' 'Kinokawa'
+ 'Kamigyo-ku' 'Kashihara' 'Suita' 'Yawata' 'Kishiwada']",34.69373999999947,135.50217999999552
+Chengdu,CN,851454,['Deyang' 'Tianpeng' 'Linqiong'],30.666670000001268,104.06667000000323
+Hangzhou,CN,3888002,"['Fuyang' 'Shaoxing' 'Haining' 'Deqing' 'Wuzhen' 'Zhuji' 'Linping'
+ 'Huzhou' 'Xiaoshan']",30.293650000003254,120.16142000000288
+Los Angeles,US,9101529,"['North Hills' 'Santa Ana' 'Diamond Bar' 'Alhambra' 'Hollywood'
+ 'Fountain Valley' 'Paramount' 'Newport Beach' 'Lawndale' 'Whittier'
+ 'Cypress' 'Bellflower' 'Canoga Park' 'Palmdale' 'Compton'
+ 'Universal City' 'Simi Valley' 'La Puente' 'Glendora' 'Chatsworth'
+ 'Valley Glen' 'Woodland Hills' 'Montebello' 'Costa Mesa' 'Moorpark'
+ 'Redondo Beach' 'Eastvale' 'Pasadena' 'Monterey Park' 'La Mirada'
+ 'Silver Lake' 'Burbank' 'Encino' 'Pico Rivera' 'Koreatown'
+ 'Huntington Beach' 'Buena Park' 'Anaheim' 'Santa Clarita' 'Placentia'
+ 'Monrovia' 'Carson' 'Upland' 'Stanton' 'San Gabriel' 'Santa Monica'
+ 'Studio City' 'Florence-Graham' 'Bell' 'Claremont' 'North Hollywood'
+ 'Valencia' 'Yorba Linda' 'Lynwood' 'Temple City' 'Altadena'
+ 'Boyle Heights' 'Norwalk' 'Brea' 'East Los Angeles' 'Huntington Park'
+ 'Downey' 'Echo Park' 'San Dimas' 'Irvine' 'Chino Hills' 'Beverly Hills'
+ 'Canyon Country' 'West Hollywood' 'Pomona' 'Rancho Palos Verdes'
+ 'Cerritos' 'La Habra' 'South Whittier' 'Hawthorne' 'Sherman Oaks'
+ 'Thousand Oaks' 'Covina' 'Hacienda Heights' 'Chino' 'Gardena' 'Van Nuys'
+ 'Rowland Heights' 'Arcadia' 'Tustin' 'Rancho Cucamonga' 'Torrance'
+ 'Manhattan Beach' 'Azusa' 'Westminster' 'West Covina' 'South Gate'
+ 'West Hills' 'El Monte' 'Ontario' 'Lakewood' 'La Verne' 'Willowbrook'
+ 'Culver City' 'Inglewood' 'Garden Grove' 'Rosemead' 'Venice' 'Northridge'
+ 'Baldwin Park' 'Bell Gardens' 'San Pedro' 'Fullerton']",34.052229999997955,-118.2436800000019
+Wuhan,CN,2555926,"['Xinzhou' 'Huangzhou' 'Xiaogan' 'Ezhou' 'Huanggang' 'Huangpi' 'Hanchuan'
+ 'Caidian' ""E'zhou""]",30.583330000001048,114.26666999999973
+Chongqing,CN,5424267,"['Shuangfengqiao' 'Jielong' 'Chenshi' 'Sanhui' 'Yongchuan' 'Yudong'
+ 'Dashi' 'Yanjia' 'Degan' 'Hechuan' 'Youxi' 'Jingguan' 'Luohuang' 'Luoqi'
+ 'Yihe' 'Banan' 'Caijiagang' 'Shichuan' 'Nanping' 'Caojie' 'Sanjiao'
+ 'Diaoyucheng' 'Fuxing' 'Dalu' ""Da'an"" 'Linshi' 'Yunmen' 'Bishan'
+ 'Longfeng' 'Bake' 'Yuanyang' 'Jiangbei' 'Duzhou' 'Xinmiao' 'Jieshi'
+ 'Mudong' 'Shuitu' 'Shuanglonghu' 'Huixing' 'Xihu' 'Lishi' 'Xiema'
+ 'Qinggang' 'Fengcheng' 'Nanjin' 'Zhiping' 'Xianfeng' 'Longtan' 'Nandajie'
+ 'Shuangfeng' 'Dingjia' 'Longxing' 'Weituo' 'Nanpeng' 'Luefeng' 'Bachuan'
+ 'Gunan' 'Yangcheng' 'Beibei' 'Jijiang' 'Yongxin' 'Dongyang' 'Shuangfu']",29.560260000003623,106.55770999999717
+Nanjing,CN,2777090,"['Gushu' ""Ma'anshan"" 'Chuzhou' 'Zhenjiang' 'Xiaolingwei' 'Zhenzhou']",32.06166999999752,118.77777999999574
+Xi'an,CN,2430350,['Lintong' 'Yuxia' 'Weinan' 'Yanliang' 'Xianyang'],34.25832999999905,108.92860999999921
+Taipei,TW,3003900,"['Shulin' 'Hsinchu' 'Neihu' 'Xizhi' 'Yilan' 'Taoyuan City' 'Keelung'
+ 'Yingge' 'Bade' 'Daxi' 'Banqiao' 'Sanxia']",25.047759999996686,121.53185000000444
+Jiaozhou,CN,9207230,"['Yunshan' 'Qingdao' 'Zhu Cheng City' 'Jiangzhuang' 'Yuanshang' 'Damoujia'
+ 'Liaolan' 'Dianbu' 'Pingdu' 'Renzhao' 'Guxian']",36.283890000002735,120.00332999999847
+Madrid,ES,5712140,"['Getafe' 'Madrid Centro' 'San Blas-Canillejas' 'Majadahonda' 'Parla'
+ 'Vicalvaro' 'Alcala de Henares' 'Latina' 'Usera' 'Arganzuela' 'Leganes'
+ 'Coslada' 'Villa de Vallecas' 'Barajas de Madrid' 'Chamartin' 'Salamanca'
+ 'Alcobendas' 'Collado-Villalba' 'Alcorcon' 'Boadilla del Monte'
+ 'San Fernando de Henares' 'Pozuelo de Alarcon' 'Rivas-Vaciamadrid'
+ 'Villaverde' 'Retiro' 'Chamberi' 'Carabanchel' 'Pinto' 'Valdemoro'
+ 'Guadalajara' 'Hortaleza' 'Torrejon de Ardoz' 'Fuencarral-El Pardo'
+ 'Moncloa-Aravaca' 'Azuqueca de Henares' 'Tres Cantos'
+ 'Puente de Vallecas' 'Moratalaz' 'Tetuan de las Victorias' 'Mostoles'
+ 'San Sebastian de los Reyes' 'Arganda' 'Fuenlabrada' 'Colmenar Viejo'
+ 'Las Rozas de Madrid' 'Aranjuez' 'Ciudad Lineal']",40.41650000000182,-3.7025600000041052
+Shantou,CN,5092056,['Haimen' 'Chaozhou' 'Jieyang' 'Huicheng' 'Anbu' 'Chenghua' 'Puning'],23.354890000002758,116.67876000000379
+Shenyang,CN,1856331,['Hushitai' 'Sujiatun' 'Xinmin' 'Fushun' 'Dongling'],41.792220000000874,123.43277999999853
+Nagoya,JP,6560387,"['Iwakura' 'Gifu-shi' 'Kanie' 'Kuwana' 'Tsushima' 'Obu' 'Maibara'
+ 'Shinshiro' 'Nakatsugawa' 'Hekinan' 'Ena' 'Tajimi' 'Toyota' 'Inuyama'
+ 'Nisshin' 'Anjo' 'Kasugai' 'Yokkaichi' 'Kameyama' 'Ogaki' 'Kariya'
+ 'Nishio' 'Mizuho' 'Youkaichi' 'Konan' 'Taketoyo' 'Minokamo' 'Tsu'
+ 'Hashima' 'Kitanagoya' 'Seto' 'Handa' 'Kuroda' 'Takahama' 'Chita'
+ 'Mizunami' 'Tokoname' 'Hikone' 'Nagahama' 'Kakamigahara' 'Chiryu'
+ 'Ichinomiya' 'Inazawa' 'Komono' 'Toyokawa' 'Kani' 'Kaizu' 'Komaki'
+ 'Toyohashi' 'Suzuka' 'Gamagori' 'Gujo' 'Toki' 'Okazaki']",35.18146999999876,136.90640999999877
+Xiamen,CN,3675347,['Shima' 'Quanzhou' 'Ximeicun' 'Jincheng' 'Zhangzhou' 'Jinjiang'],24.479789999996324,118.08187000000424
+Tai'an,CN,5633700,['Sishui' 'Laiwu' 'Dongdu' 'Jinan' 'Ningyang' 'Pingyin'],36.18527999999711,117.11999999999819
+Ningbo,CN,3586581,"['Zhaobaoshan' 'Shangyu' 'Yuyao' 'Lianghu' 'Zhoushan' 'Cixi' 'Fenghua'
+ 'Ninghai']",29.87818999999827,121.54944999999579
+Puyang,CN,3660074,['Guli' 'Yiwu' 'Jinhua' 'Lanxi' 'Puyang Chengguanzhen'],29.456789999997085,119.88871999999682
+Mecca,SA,5457883,"['Ash Shafa' 'Jeddah' ""Ta'if""]",21.426640000001566,39.825629999997126
+Busan,KR,3296894,"['Naeso' 'Ungsang' 'Kimhae' 'Changwon' 'Miryang' 'Kyosai' 'Sinhyeon'
+ 'Ulsan' 'Yangsan' 'Gijang']",35.10168000000077,129.0300400000025
+Paris,FR,4778888,"['Aubervilliers' 'Puteaux' 'Le Perreux-sur-Marne' 'Poissy'
+ 'Rueil-Malmaison' 'Choisy-le-Roi' 'Epinay-sur-Seine' 'Nanterre' 'Massy'
+ 'Garges-les-Gonesse' 'Clamart' 'Montreuil' 'Montigny-le-Bretonneux'
+ 'Villejuif' 'Saint-Denis' 'Maisons-Alfort' 'Drancy' 'Cergy'
+ 'Champigny-sur-Marne' 'Noisy-le-Grand' 'Creteil' 'Pontault-Combault'
+ 'Mantes-la-Jolie' 'Asnieres-sur-Seine' 'Corbeil-Essonnes' 'Gagny'
+ 'Les Mureaux' 'Pantin' 'Neuilly-sur-Marne' 'Levallois-Perret'
+ 'Aulnay-sous-Bois' 'Neuilly-sur-Seine' 'Sartrouville' 'Marne La Vallee'
+ 'Plaisir' 'Versailles' 'Ivry-sur-Seine' 'Chatillon'
+ 'Saint-Quentin-en-Yvelines' 'Cergy-Pontoise' 'Saint-Germain-en-Laye'
+ 'Sevran' 'Savigny-sur-Orge' 'Sainte-Genevieve-des-Bois' 'Meudon'
+ 'Livry-Gargan' 'Conflans-Sainte-Honorine' 'Tremblay-en-France'
+ 'Issy-les-Moulineaux' 'Vincennes' 'Clichy' 'La Courneuve' 'Bondy'
+ 'Boulogne-Billancourt' 'Bobigny' 'Chelles' 'Evry' 'Meaux'
+ 'Fontenay-sous-Bois' 'Bagnolet' 'Chatenay-Malabry' 'Colombes'
+ 'Alfortville' 'Bagneux' 'Saint-Ouen' 'Rosny-sous-Bois' 'Noisy-le-Sec'
+ 'Antony' 'Courbevoie' 'Stains' 'Vitry-sur-Seine' 'Franconville'
+ 'Le Blanc-Mesnil' 'Sarcelles' 'Montrouge' 'Melun' 'Gennevilliers'
+ 'Argenteuil' 'Villepinte' 'Saint-Maur-des-Fosses' 'Suresnes']",48.85340999999765,2.3487999999978357
+Berlin,DE,3444850,"['Koepenick' 'Tempelhof' 'Maerkisches Viertel' 'Zehlendorf'
+ 'Falkenhagener Feld' 'Fuerstenwalde' 'Prenzlauer Berg Bezirk' 'Rudow'
+ 'Lankwitz' 'Marzahn' 'Britz' 'Mitte' 'Steglitz Bezirk'
+ 'Friedrichshain Bezirk' 'Lichtenberg' 'Lichterfelde' 'Moabit' 'Neukoelln'
+ 'Gropiusstadt' 'Tegel' 'Wedding' 'Falkensee' 'Marienfelde'
+ 'Friedrichsfelde' 'Niederschoenhausen' 'Koenigs Wusterhausen'
+ 'Schoeneberg' 'Weissensee' 'Berlin Koepenick' 'Kreuzberg' 'Mariendorf'
+ 'Neu-Hohenschoenhausen' 'Eberswalde' 'Staaken' 'Spandau' 'Gesundbrunnen'
+ 'Westend' 'Bernau bei Berlin' 'Hellersdorf' 'Buckow' 'Oranienburg'
+ 'Lichtenrade' 'Pankow' 'Potsdam' 'Berlin Treptow' 'Charlottenburg'
+ 'Reinickendorf' 'Wilhelmstadt' 'Wilmersdorf' 'Alt-Hohenschoenhausen'
+ 'Fennpfuhl']",52.524370000000104,13.410530000000728
+Zhengzhou,CN,2554862,['Kaifeng' 'Gongyi' 'Xinxiang'],34.75778000000107,113.64860999999696
+Chicago,US,4098636,"['Chicago Lawn' 'Brighton Park' 'West Englewood' 'Near North Side'
+ 'Des Plaines' 'Hanover Park' 'Lincoln Park' 'North Lawndale' 'Woodridge'
+ 'Portage' 'South Lawndale' 'Hoffman Estates' 'Lower West Side' 'Wheeling'
+ 'Arlington Heights' 'West Town' 'Park Ridge' 'Logan Square' 'Bolingbrook'
+ 'Elk Grove Village' 'Avondale' 'Auburn Gresham' 'St. Charles'
+ 'Bridgeport' 'Northbrook' 'Carpentersville' 'Ashburn' 'Berwyn' 'Bartlett'
+ 'Buffalo Grove' 'Carol Stream' 'Oak Lawn' 'Palatine' 'Rogers Park'
+ 'Merrillville' 'Calumet City' 'Skokie' 'Glendale Heights' 'Gary' 'Aurora'
+ 'Elgin' 'Wheaton' 'Belmont Cragin' 'Downers Grove' 'Portage Park'
+ 'Greater Grand Crossing' 'Mount Prospect' 'Albany Park' 'Orland Park'
+ 'Tinley Park' 'Schaumburg' 'Uptown' 'Naperville' 'Joliet' 'Edgewater'
+ 'Evanston' 'Chicago Loop' 'West Lawn' 'Lincoln Square' 'South Shore'
+ 'Cicero' 'Glenview' 'Lombard' 'Gage Park' 'Irving Park' 'Hammond'
+ 'West Ridge' 'Romeoville' 'Streamwood' 'Oak Park' 'North Center'
+ 'Addison']",41.850029999999116,-87.65005000000028
+Changsha,CN,3669011,['Xiangxiang' 'Xiangtan' 'Wenxing' 'Yutan' 'Zhuzhou' 'Guankou'],28.198740000002836,112.97086999999905
+Barcelona,ES,4731682,"['Vilanova i la Geltru' 'Gava' 'Esplugues de Llobregat' 'Sant Andreu'
+ 'Sant Cugat del Valles' 'Badalona' 'Cerdanyola del Valles' 'Nou Barris'
+ 'Sant Adria de Besos' ""l'Antiga Esquerra de l'Eixample"" 'Manresa'
+ 'Mollet del Valles' 'Eixample' ""L'Hospitalet de Llobregat"" 'Rubi'
+ 'Sants-Montjuic' 'Vilafranca del Penedes' ""el Camp de l'Arpa del Clot""
+ 'el Poblenou' 'Les Corts' 'Igualada' 'Sabadell' ""Dreta de l'Eixample""
+ 'Sarria-Sant Gervasi' 'la Vila de Gracia' 'Montcada i Reixac'
+ 'Granollers' 'Sants' 'Sant Marti' ""el Camp d'en Grassot i Gracia Nova""
+ 'Poble Sec' 'Ripollet' 'Sant Gervasi - Galvany' 'el Raval'
+ 'Barri de Sant Andreu' 'Viladecans' 'Terrassa' 'Llefia'
+ 'Cornella de Llobregat' 'Santa Coloma de Gramenet'
+ 'Sant Feliu de Llobregat' 'Gracia' 'Sant Joan Despi' 'Castelldefels'
+ ""la Nova Esquerra de l'Eixample"" 'Sant Boi de Llobregat' 'el Guinardo'
+ 'Sant Antoni' 'El Prat de Llobregat' 'Mataro' 'Horta-Guinardo'
+ 'Barri de les Corts' 'Sagrada Familia' 'Ciutat Vella' 'El Vendrell']",41.38879000000286,2.1589900000020688
+Jinzhou,CN,5384170,['Lianshan' 'Nanpiao' 'Dalian'],41.107779999999806,121.14167000000194
+Zibo,CN,2659273,"['Taitou' 'Sitou' 'Dongxia' 'Qingzhou' 'Miaozi' 'Jitai' 'Hualong'
+ 'Shaozhuang' 'Yidu' 'Shanwang' 'Linqu' 'Shouguang' 'Wujing' 'Nanding'
+ 'Xindian' 'Gaoliu' 'Heguan' 'Mihe' 'Yeyuan' 'Huanglou' 'Suozhen'
+ 'Zhoucun' 'Wangfen' 'Tanfang' 'Boshan']",36.79056000000003,118.06332999999802
+Taiyuan,CN,1462546,['Jinzhong' 'Yuci'],37.86944000000212,112.56027999999733
+Dallas,US,4339991,"['Arlington' 'Garland' 'Keller' 'Grapevine' 'Euless' 'DeSoto' 'Hurst'
+ 'Duncanville' 'Coppell' 'McKinney' 'Frisco' 'Farmers Branch' 'Waxahachie'
+ 'Grand Prairie' 'Plano' 'The Colony' 'Cedar Hill' 'Rowlett' 'Irving'
+ 'Flower Mound' 'Richardson' 'Mesquite' 'Lewisville' 'Bedford'
+ 'Fort Worth' 'Little Elm' 'North Richland Hills' 'Mansfield' 'Allen'
+ 'Lancaster' 'Denton' 'Wylie' 'Carrollton' 'Rockwall' 'Burleson'
+ 'Haltom City']",32.78305999999971,-96.80666999999575
+Harbin,CN,384479,['Acheng' 'Shuangcheng' 'Hulan'],45.74999999999688,126.64999999999912
+Koeln,DE,4645554,"['Neustadt/Sued' 'Muelheim' 'Remscheid' 'Moenchengladbach' 'Willich'
+ 'Bonn' 'Grevenbroich' 'Huerth' 'Wermelskirchen' 'Euskirchen' 'Erkrath'
+ 'Korschenbroich' 'Dormagen' 'Erkelenz' 'Hilden' 'Dueren' 'Frechen'
+ 'Monheim am Rhein' 'Neubrueck' 'Ratingen' 'Solingen' 'Wesseling' 'Nippes'
+ 'Bergheim' 'Mettmann' 'Duesseldorf' 'Ennepetal' 'Kaarst' 'Koenigswinter'
+ 'Kerpen' 'Niederkassel' 'Eschweiler' 'Sankt Augustin' 'Troisdorf'
+ 'Siegburg' 'Neuss' 'Leverkusen' 'Juelich' 'Pulheim' 'Rodenkirchen'
+ 'Bornheim' 'Langenfeld' 'Wuppertal' 'Bruehl' 'Meerbusch' 'Erftstadt'
+ 'Gummersbach' 'Bergisch Gladbach' 'Hennef (Sieg)' 'Velbert'
+ 'Porz am Rhein']",50.93333000000269,6.949999999997742
+Semarang,ID,3543458,"['Surakarta' 'Salatiga' 'Kudus' 'Baekrajan' 'Batang' 'Magelang' 'Ambarawa'
+ 'Pecangaan' 'Mlonggo' 'Wonosobo' 'Gatak' 'Ungaran' 'Pati' 'Jekulo'
+ 'Gebog' 'Weleri' 'Purwodadi' 'Karanganom' 'Jepara' 'Kartasura' 'Boyolali'
+ 'Muntilan' 'Mertoyudan']",-6.993060000000131,110.42083000000335
+Hefei,CN,138463,['Chaohu'],31.863890000002584,117.28082999999566
+Surabaya,ID,2208158,"['Tulangan Utara' 'Diwek' 'Lamongan' 'Pasuruan' 'Krian' 'Lawang' 'Kebomas'
+ 'Singosari' 'Bangil' 'Bangkalan' 'Mojokerto' 'Pandaan' 'Probolinggo'
+ 'Tanggulangin' 'Batu' 'Jombang' 'Buduran' 'Sidoarjo' 'Sampang' 'Gresik'
+ 'Gedangan']",-7.2491699999996575,112.7508300000004
+Hamburg,DE,3237112,"['Stade' 'Seevetal' 'Bergedorf' 'Barmbek-Sued' 'Harburg' 'Winterhude'
+ 'Lurup' 'Farmsen-Berne' 'Hamburg-Mitte' 'Elmshorn' 'Eidelstedt'
+ 'Norderstedt' 'Buxtehude' 'Pinneberg' 'Ottensen' 'Eimsbuettel'
+ 'Langenhorn' 'Wandsbek' 'Barmbek-Nord' 'Niendorf' 'Rahlstedt'
+ 'Hamburg-Nord' 'Marienthal' 'Buchholz in der Nordheide' 'Winsen' 'Altona'
+ 'Neugraben-Fischbek' 'Horn' 'Hamm' 'Wilhelmsburg' 'Lueneburg' 'Billstedt']",53.55073000000233,9.993020000000012
+Shijiazhuang,CN,1124251,['Xinle' 'Zhengding' 'Huaiyang' 'Tianchang' 'Luancheng' 'Beisu' 'Anxiang'],38.04138999999957,114.47861000000219
+Changchun,CN,295684,['Shuangyang' 'Jiutai' 'Xinglongshan'],43.87999999999927,125.32277999999597
+Fuzhou,CN,1175223,"['Fuqing' 'Ningde' 'Jiangkou' 'Tantou' 'Fenggang' 'Xiugu' 'Xiaogang'
+ 'Bashan' 'Dengbu' 'Jianchang']",26.06139000000307,119.30610999999745
+Bandung,ID,2421521,"['Banjaran' 'Padalarang' 'Sumedang Utara' 'Banjar' 'Lembang' 'Sumedang'
+ 'Majalengka' 'Singaparna' 'Cileunyi' 'Jatiwangi' 'Pamanukan' 'Paseh'
+ 'Soreang' 'Cimahi' 'Margahayukencana' 'Rajapolah' 'Pameungpeuk']",-6.922220000002516,107.60693999999692
+Ankara,TR,1341751,['Cubuk' 'Cankaya' 'Batikent' 'Kirikkale'],39.919869999998134,32.85427000000247
+Daejeon,KR,3355255,"['Gongju' 'Asan' 'Jeonju' 'Okcheon' 'Nonsan' 'Cheonan' 'Wanju' 'Sejong'
+ 'Koesan' 'Buyeo' ""Chinch'on"" 'Iksan' 'Yesan' 'Cheongju-si']",36.34912999999974,127.3849300000018
+Fukuoka,JP,3105243,"['Karatsu' 'Onojo' 'Takeo' 'Kurume' 'Iizuka' 'Yanagawa' 'Omuta'
+ 'Kitakyushu' 'Shimonoseki' 'Saga' 'Nakama' 'Umi' 'Tosu' 'Nogata' 'Hita'
+ 'Maebaru-chuo' 'Kanda' 'Imaricho-ko' 'Tagawa' 'Chikushino-shi' 'Amagi'
+ 'Dazaifu' 'Nishifukuma' 'Okawa' 'Yukuhashi']",33.60000000000143,130.4166699999964
+Phoenix,US,2859369,"['Surprise' 'Central City' 'Mesa' 'Sun City' 'Goodyear' 'Scottsdale'
+ 'San Tan Valley' 'Gilbert' 'Maricopa' 'Queen Creek' 'Deer Valley' 'Tempe'
+ 'El Mirage' 'Peoria' 'Ahwatukee Foothills' 'Apache Junction' 'Buckeye'
+ 'Chandler' 'Maryvale' 'Encanto' 'Tempe Junction']",33.44838000000051,-112.07404000000022
+Kunming,CN,497669,['Haikou' 'Shilin' 'Majie' 'Longquan' 'Anning'],25.038890000002237,102.71832999999607
+Birmingham,GB,3094241,"['Stafford' 'Telford' 'Aston' 'Solihull' 'Stourbridge' 'Worcester'
+ 'Shirley' 'Lichfield' 'Rugby' 'Swadlincote' 'Bloxwich' 'Walsall'
+ 'Nuneaton' 'Sutton Coldfield' 'Hinckley' 'West Bromwich' 'Halesowen'
+ 'Coventry' 'Wolverhampton' 'Tamworth' 'Burton upon Trent' 'Coalville'
+ 'Tipton' 'Warwick' 'Redditch' 'Cannock' 'Kidderminster' 'Dudley'
+ 'Washwood Heath' 'Bromsgrove' 'Royal Leamington Spa' 'Wednesfield'
+ 'Hoover' 'Vestavia Hills' 'Alabaster']",52.48142000000002,-1.8998300000019317
+Brussels,BE,3142687,"['Leuven' ""Braine-l'Alleud"" 'Charleroi' 'La Louviere' 'Ixelles' 'Merksem'
+ 'Molenbeek-Saint-Jean' 'Wilrijk' 'Forest' 'Dendermonde' 'Halle' 'Evere'
+ 'Borgerhout' 'Auderghem' 'Etterbeek' 'Anderlecht' 'Sint-Niklaas'
+ 'Dilbeek' 'Gent' 'Berchem' 'Heist-op-den-Berg' 'Schaerbeek' 'Brasschaat'
+ 'Ninove' 'Lokeren' 'Schoten' 'Binche' 'Beveren' 'Deurne' 'Lier' 'Aalst'
+ 'Grimbergen' 'Vilvoorde' 'Mechelen' 'Wavre' 'Sint-Amandsberg' 'Jette'
+ 'Antwerpen' 'Saint-Gilles' 'Uccle' 'Woluwe-Saint-Lambert']",50.85044999999887,4.348780000000249
+Suqian,CN,2623799,"['Balu' 'Xinyi' 'Liji' 'Yaoji' 'Hegou' 'Pizhou' 'Wangji' 'Shiji' 'Caoqiao'
+ 'Weiji' 'Shaodian' 'Gaozuo' 'Qipan' ""Qing'an"" 'Malingshan' 'Taoyuan'
+ 'Yaowan' 'Gupi' 'Lingcheng' 'Qiuji' 'Liangji' 'Lanshan' 'Zhaodun'
+ 'Zhancheng' 'Guiren' 'Guanshan' 'Chenlou' 'Picheng' 'Wayao' 'Gangtou'
+ 'Guanhu' 'Nianzhuang' 'Tushan' 'Shaji' 'Suicheng']",33.949169999998766,118.2958300000031
+Zigong,CN,2769285,"['Anfu' 'Kongtan' 'Nanxi' 'Neijiang' 'Juexi' 'Guanyin' 'Panlong' 'Luolong'
+ 'Ronglong' 'Fuji' 'Wujia' 'Baihua' 'Chonglong' 'Yibin']",29.34162000000077,104.77689000000146
+Luohe,CN,2625058,"['Zhoukou' 'Wacheng Neighborhood' 'Zhumadian' 'Xuchang'
+ 'Xiangcheng Chengguanzhen']",33.563939999997196,114.04272000000111
+Taizhou,CN,2297321,['Gaoyou' 'Yangzhou' 'Xiannue' 'Wenling' 'Jiaojiang'],32.49068999999913,119.90812000000231
+Yongning,CN,3839800,['Nanning'],22.76100999999868,108.48358999999762
+Liverpool,GB,2995595,"['Leyland' 'Runcorn' 'Darwen' 'Tyldesley' 'St Helens' 'Stretford' 'Wigan'
+ 'Huyton' 'Radcliffe' 'Northwich' 'Wallasey' 'Bolton' 'Kirkby' 'Buckley'
+ 'Widnes' 'Great Sankey' 'Lytham St Annes' 'Eccles' 'Leigh' 'Altrincham'
+ 'Skelmersdale' 'Urmston' 'Salford' 'Wrexham' 'Crosby' 'Blackpool'
+ 'Birkenhead' 'Warrington' 'Bootle' 'Chorley' 'Fylde' 'Prescot'
+ 'Southport' 'Ellesmere Port Town' 'Walkden' 'Deeside' 'Preston']",53.41058000000055,-2.977940000000709
+Xuzhou,CN,2532907,"['Liuquan' 'Yizhuang' 'Zizhuang' 'Hekou' 'Zhangzhuang' 'Liuji' 'Weimiao'
+ 'Huangji' 'Dahuangshan' ""Jing'an"" 'Mapo' 'Zhengji' 'Chefushan' 'Tashan'
+ 'Liuxin' 'Shanji' 'Liguo' 'Suyangshan' 'Biantang' 'Liangzhai' 'Maocun'
+ 'Jiawang' 'Daizhuang' 'Fangcun' 'Damiao' 'Bayiji' 'Daxu' 'Heqiao'
+ 'Huzhai' 'Wuduan' 'Shuanggou' 'Zhangzhai' 'Qingshanquan' 'Jiawang Zhen'
+ 'Dapeng' 'Yunlong' 'Qishan' 'Fanlou' 'Xuzhuang' 'Xinglou' 'Zhangji']",34.20442000000046,117.28386000000371
+Medan,ID,1337183,"['Percut' 'Berastagi' 'Tebingtinggi' 'Belawan' 'Perbaungan' 'Sunggal'
+ 'Binjai' 'Labuhan Deli' 'Pekan Bahapal' 'Kabanjahe']",3.5833300000024635,98.66667000000034
+Rui'an,CN,2842352,['Wenzhou' 'Fuding'],27.776049999998094,120.65858999999666
+Tangshan,CN,372994,['Zhaogezhuang' 'Guye' 'Fengrun' 'Tangjiazhuang' 'Linxi'],39.633329999997535,118.1833299999963
+San Jose,US,2701552,"['Menlo Park' 'Milpitas' 'Oakland' 'Redwood City' 'Gilroy' 'Santa Cruz'
+ 'Cupertino' 'Fremont' 'South San Francisco' 'Dublin' 'Santa Clara'
+ 'Palo Alto' 'Foster City' 'Morgan Hill' 'San Ramon' 'Campbell'
+ 'Livermore' 'San Leandro' 'Hayward' 'Alameda' 'Danville' 'San Bruno'
+ 'Castro Valley' 'Tracy' 'Mountain View' 'Pacifica' 'Watsonville'
+ 'San Mateo' 'Pleasanton' 'Sunnyvale']",37.339390000001096,-121.89495999999595
+Warsaw,PL,2012788,"['Wlochy' 'Otwock' 'Minsk Mazowiecki' 'Zoliborz' 'Praga Poludnie' 'Bemowo'
+ 'Bialoleka' 'Pruszkow' 'Targowek' 'Ursynow' 'Bielany' 'Zyrardow'
+ 'Mokotow' 'Wola' 'Praga Polnoc' 'Srodmiescie' 'Ochota' 'Ursus'
+ 'Piaseczno' 'Wolomin' 'Legionowo' 'Wawer']",52.229770000000435,21.011779999997394
+Nanchong,CN,1853202,"['Gaoping' 'Nanlong' 'Suining' 'Sanmiao' ""Guang'an"" 'Guxi']",30.79508000000123,106.08473000000077
+Miami,US,3264311,"['Cutler Bay' 'West Little River' 'Pompano Beach' 'South Miami Heights'
+ 'Hallandale Beach' 'North Miami Beach' 'Plantation' 'Carol City'
+ 'Princeton' 'Country Club' 'Miami Gardens' 'Sunrise' 'North Lauderdale'
+ 'Cooper City' 'Fountainebleau' 'Doral' 'Pembroke Pines' 'Fort Lauderdale'
+ 'Miramar' 'Kendall' 'North Miami' 'Davie' 'Miami Beach'
+ 'Lauderdale Lakes' 'Coral Springs' 'Richmond West' 'Hialeah'
+ 'Kendall West' 'Allapattah' 'Kendale Lakes' 'Golden Glades'
+ 'The Hammocks' 'Lauderhill' 'Oakland Park' 'Boca Raton' 'Coconut Creek'
+ 'Aventura' 'Margate' 'Flagami' 'Coral Gables' 'Tamiami' 'Deerfield Beach'
+ 'Homestead' 'Tamarac' 'Weston']",25.77427000000073,-80.19366000000079
+Handan,CN,2332147,['Xingtai' 'Hecun' 'Anyang' 'Shahecheng' 'Pengcheng' 'Linshui'],36.60999000000223,114.48764000000342
+Daegu,KR,1092595,"['Gimcheon' 'Gyeongsan-si' 'Kunwi' 'Eisen' 'Gumi' 'Gyeongju' 'Changnyeong'
+ 'Hwawon']",35.87027999999952,128.59111000000152
+Casablanca,MA,445594,['Berrechid' 'Mohammedia' 'Skhirate' 'Settat'],33.588309999998955,-7.611379999999042
+Izmir,TR,1062314,"['Manisa' 'Karabaglar' 'Urla' 'Menemen' 'Aliaga' 'Turgutlu' 'Kusadasi'
+ 'Torbali']",38.41272999999894,27.13837999999677
+Rabat,MA,1885777,['Kenitra' 'Sale Al Jadida' 'Sale' 'Temara' 'Sidi Yahia El Gharb' 'Tiflet'],34.01325000000006,-6.83255000000376
+Bursa,TR,438667,['Inegol' 'Mustafakemalpasa' 'Gemlik' 'Karacabey' 'Orhangazi' 'Kestel'],40.19558999999812,29.06012999999701
+Washington,US,2840972,"['Hanover' 'Ellicott City' 'Woodlawn' 'Lake Ridge' 'Clinton' 'Potomac'
+ 'McLean' 'Germantown' 'Oakton' 'Annandale' 'Waldorf' 'Saint Charles'
+ 'Olney' 'Catonsville' 'Aspen Hill' 'Dale City' 'Glen Burnie' 'Columbia'
+ 'College Park' 'Bowie' 'Rockville' 'Centreville' 'Montgomery Village'
+ 'Chillum' 'North Bethesda' 'Dundalk' 'Oak Hill' 'Oxon Hill-Glassmanor'
+ 'Alexandria' 'Reston' 'Linton Hall' 'Gaithersburg' 'Manassas' 'Baltimore'
+ 'Annapolis' 'Silver Spring' 'Severn' 'Odenton' 'Burke' 'Leesburg'
+ 'Severna Park' 'Gwynn Oak' 'Suitland-Silver Hill' 'Randallstown'
+ 'Bethesda']",38.89511000000299,-77.03636999999806
+Amsterdam,NL,2748521,"['Leiden' 'Lelystad' 'Amersfoort' 'Amstelveen' 'Castricum'
+ 'Alphen aan den Rijn' 'Woerden' 'Utrecht' 'Hoofddorp' 'Gouda' 'Heemskerk'
+ 'Almere Stad' 'Huizen' 'Zeist' 'Velsen-Zuid' 'Zaandam' 'Zoetermeer'
+ 'Heerhugowaard' 'Soest' 'Medemblik' 'Alkmaar' 'IJsselstein' 'Nieuwegein'
+ 'Hilversum' 'Hoorn' 'Beverwijk' 'Purmerend' 'Maarssen' 'Zaanstad'
+ 'Haarlem' 'Nijkerk' 'Amsterdam-Zuidoost']",52.37403000000082,4.889690000000342
+Houston,US,1092751,"['Pearland' 'Missouri City' 'Baytown' 'Alief' 'Conroe' 'Friendswood'
+ 'Deer Park' 'The Woodlands' 'Texas City' 'League City' 'La Porte'
+ 'Spring' 'Sugar Land' 'Atascocita' 'Channelview' 'Mission Bend'
+ 'Rosenberg']",29.763279999996104,-95.36326999999584
+Yantai,CN,1104408,['Tianfu' 'Weihai' 'Zhuangyuan' 'Qingyang'],37.47649000000319,121.44081000000283
+Boston,US,2624745,"['Natick' 'Newton' 'Cumberland' 'Waltham' 'Brookline' 'Randolph' 'Beverly'
+ 'Lowell' 'Quincy' 'Malden' 'Nashua' 'Taunton' 'Salem' 'Woonsocket'
+ 'Brockton' 'Methuen' 'Peabody' 'Attleboro' 'Braintree' 'South Peabody'
+ 'Weymouth' 'Billerica' 'Somerville' 'Framingham Center' 'Beverly Cove'
+ 'Framingham' 'Lynn' 'Woburn' 'Haverhill' 'Jamaica Plain' 'Medford'
+ 'Shrewsbury' 'Revere' 'Marlborough' 'South Boston' 'Cambridge']",42.358430000002684,-71.05976999999875
+Baiyin,CN,3000000,['Lanzhou'],36.546959999997426,104.17022999999828
+Naples,IT,2351341,"[""Pomigliano d'Arco"" 'Acerra' 'Scafati' 'Casoria' 'Giugliano in Campania'
+ ""San Carlo All'Arena"" 'Scampia' 'Castellammare di Stabia' 'Arzano'
+ 'Soccavo' 'San Giorgio a Cremano' 'Pozzuoli' 'Fuorigrotta'
+ 'Casalnuovo di Napoli' 'Portici' 'Pianura' 'Mugnano di Napoli' 'Quarto'
+ 'Pagani' 'Melito di Napoli' 'Caivano' 'Ercolano' 'Marano di Napoli'
+ 'Salerno' 'Ponticelli' 'Nocera Inferiore' 'Arenella' 'Vomero' 'Aversa'
+ 'San Lorenzo' 'Benevento' 'Avellino' 'Chiaia' 'Afragola' 'Maddaloni'
+ ""Sant'Antimo"" 'Caserta' 'Cava De Tirreni' 'Secondigliano'
+ 'Torre del Greco' 'Avvocata' 'Torre Annunziata' 'Somma Vesuviana' 'Barra'
+ 'Marcianise']",40.85215999999928,14.268109999996275
+Linyi,CN,509354,"['Jiehu' 'Shizilu' 'Xiazhuang' 'Bianzhuang' 'Sihu' 'Gangshang' 'Zouzhuang'
+ 'Tiefu']",35.063059999997364,118.34277999999641
+UEruemqi,CN,198776,['Changji'],43.80095999999887,87.60046000000422
+Liaoyang,CN,2437717,['Anshan' 'Benxi'],41.271940000002374,123.17305999999701
+Rome,IT,787553,"['Marino' 'Acilia-Castel Fusano-Ostia Antica' 'Ciampino' 'Aprilia' 'Anzio'
+ 'Nettuno' 'Casal Palocco' 'Fiumicino' 'Lido di Ostia' 'Ladispoli'
+ 'Monterotondo' 'Guidonia Montecelio' 'Velletri' 'Utica']",41.89192999999899,12.511330000003525
+Milan,IT,1728550,"['Varese' 'Paderno Dugnano' 'Como' 'Saronno' 'Gallarate' 'Lodi'
+ 'Busto Arsizio' 'Cesano Maderno' 'Pioltello' 'Vigevano' 'Monza' 'Seregno'
+ 'Novara' 'Rho' 'Corsico' 'Pavia' 'Cologno Monzese' 'Brugherio' 'Bergamo'
+ 'Lecco' 'Abbiategrasso' 'Desio' 'Voghera' 'Limbiate' 'Bollate' 'Legnano'
+ 'Sesto San Giovanni' 'Cantu' 'Cinisello Balsamo' 'Rozzano' 'Lissone']",45.464269999997285,9.189510000002736
+Bozhou,CN,1679343,['Jishui' 'Xincheng' 'Shangqiu'],33.877220000000484,115.77028000000266
+Baoding,CN,295615,['Renqiu' 'Dingzhou' 'Beiwangli'],38.87287999999953,115.46246000000255
+Zhanjiang,CN,1604012,['Lianjiang' 'Maoming' 'Huazhou' 'Wuchuan'],21.233909999997792,110.38749000000378
+Wanxian,CN,2070882,"['Wenquan' 'Zhaojia' 'Linjiang' 'Fenshui' 'Changling' 'Baihe' 'Zhonggulou'
+ 'Wanzhou' ""Bai'anba"" 'Taibai' 'Dunhao' 'Jiulongshan' 'Zhoujiaba'
+ 'Xintian' 'Nanmen' 'Baiyang' 'Shuanghekou' 'Pailou' 'Gaoliang' 'Hanfeng'
+ 'Yuexi' 'Xiongjia' 'Tiancheng']",30.816010000000812,108.37407000000371
+Athens,GR,2206647,"['Ilion' 'Vyronas' 'Marousi' 'Nikaia' 'Kallithea' 'Galatsi'
+ 'Agia Paraskevi' 'Zografos' 'Agioi Anargyroi' 'Petroupolis' 'Nea Ionia'
+ 'Acharnes' 'Korydallos' 'Chalkida' 'Chaidari' 'Ano Liosia' 'Keratsini'
+ 'Khalandrion' 'Aigaleo' 'Piraeus' 'Thivai' 'Ilioupoli' 'Irakleio'
+ 'Alimos' 'Palaio Faliro' 'Kifisia' 'Argyroupoli' 'Nea Smyrni'
+ 'Agios Dimitrios' 'Peristeri' 'Glyfada' 'Gainesville']",37.983759999998426,23.727839999997588
+Katowice,PL,2498233,"['Bytom' 'Piekary Slaskie' 'Siemianowice Slaskie' 'Jastrzebie Zdroj'
+ 'Czechowice-Dziedzice' 'Myslowice' 'Mikolow' 'Tarnowskie Gory' 'Zabrze'
+ 'Tychy' 'Gliwice' 'Myszkow' 'Bielsko-Biala' 'Dabrowa Gornicza'
+ 'Swietochlowice' 'Ruda Slaska' 'Zawiercie' 'Bedzin' 'Wodzislaw Slaski'
+ 'Czeladz' 'Zory' 'Chorzow' 'Rybnik' 'Oswiecim' 'Knurow' 'Sosnowiec']",50.258409999998285,19.02754000000319
+Sheffield,GB,2236822,"['High Peak' 'Morley' 'Bentley' 'Sutton in Ashfield' 'Batley'
+ 'Ashton-under-Lyne' 'Ilkeston' 'Pontefract' 'Macclesfield' 'Castleford'
+ 'Worksop' 'Oldham' 'Doncaster' 'Brighouse' 'Dewsbury' 'Glossop'
+ 'Chesterfield' 'Halifax' 'Barnsley' 'Rotherham' 'Huddersfield'
+ 'Stockport' 'Leeds']",53.382970000001656,-1.46590000000126
+Nanyang,CN,973978,"['Dengzhou' 'Fangcheng Chengguanzhen' 'Yunyang' 'Hancheng' 'Binhe'
+ 'Zhenping Chengguanzhen']",32.99472000000108,112.53277999999568
+Huainan,CN,1099399,['Huaiyuan Chengguanzhen' 'Bengbu' 'Datong'],32.62639000000282,116.99693999999839
+Okayama,JP,2040909,"['Tsuyama' 'Marugame' 'Fukuyama' 'Kannabecho-yahiro' 'Mitoyo' 'Kasaoka'
+ 'Ibara' 'Fuchucho' 'Tamano' 'Sakaidecho' ""Kan'onjicho"" 'Kurashiki'
+ 'Takamatsu' 'Soja']",34.65000000000013,133.93332999999575
+San Diego,US,1328041,"['La Mesa' 'Chula Vista' 'El Cajon' 'Vista' 'San Marcos' 'Poway'
+ 'La Presa' 'Rancho Penasquitos' 'La Jolla' 'Santee' 'Escondido'
+ 'Carlsbad' 'Mira Mesa' 'National City' 'Encinitas']",32.715710000003746,-117.1647199999957
+Vienna,AT,1011970,"['Simmering' 'Hietzing' 'Favoriten' 'Donaustadt' 'Wiener Neustadt'
+ 'Ottakring' 'Floridsdorf' 'Meidling' 'Hernals']",48.20848999999878,16.37208000000235
+Sapporo,JP,723347,"['Otaru' 'Ebetsu' 'Tomakomai' 'Ishikari' 'Chitose' 'Iwamizawa'
+ 'Kitahiroshima']",43.06667000000142,141.34999999999803
+Huai'an,CN,193844,['Gaogou' 'Zhongxing' 'Baoying'],33.588609999997566,119.01916999999945
+Tarsus,TR,2317305,['Adana' 'Mersin'],36.91765999999694,34.89277000000168
+Cirebon,ID,2325639,"['Lebaksiu' 'Karangsembung' 'Tarub' 'Indramayu' 'Sumber' 'Weru' 'Tegal'
+ 'Arjawinangun' 'Kuningan' 'Jatibarang' 'Adiwerna' 'Palimanan' 'Klangenan'
+ 'Majenang' 'Ciamis' 'Slawi' 'Plumbon' 'Ketanggungan' 'Astanajapura'
+ 'Tasikmalaya' 'Dukuhturi']",-6.706299999999854,108.55699999999642
+Qinzhou,CN,1299200,"['Shikang' 'Fangchenggang' 'Shangsi' 'Beihai' 'Hepu' 'Dangjiang' 'Xichang'
+ 'Jiangping']",21.98246999999651,108.65061000000397
+Philadelphia,US,1012586,"['Jackson' 'Chester' 'Center City' 'Sicklerville' 'Bensalem' 'Sewell'
+ 'Wilmington' 'Ewing' 'Abington' 'Pennsauken' 'Vineland' 'Cherry Hill'
+ 'Wharton' 'Whitman' 'Camden' 'South Vineland' 'Mount Laurel' 'Norristown'
+ 'Trenton']",39.952379999998364,-75.16361999999897
+Kaohsiung,TW,1052711,['Yongkang' 'Donggang' 'Tainan'],22.61625999999717,120.31332999999923
+Stockholm,SE,1040147,"['Lidingoe' 'Soedermalm' 'Tumba' 'Huddinge' 'Soedertaelje' 'Bromma' 'Taby'
+ 'Akersberga' 'Solna' 'Upplands Vaesby' 'Vasastan' 'OEstermalm'
+ 'Sundbyberg' 'Haninge' 'Kungsholmen' 'Sollentuna']",59.32938000000212,18.068709999997033
+Detroit,US,1852584,"['Saint Clair Shores' 'Eastpointe' 'Sterling Heights' 'Roseville'
+ 'Dearborn' 'Farmington Hills' 'Waterford' 'Southfield' 'Canton'
+ 'Westland' 'West Bloomfield Township' 'Novi' 'Shelby' 'Dearborn Heights'
+ 'Redford' 'Clinton Township' 'Livonia' 'Royal Oak' 'Troy' 'Warren'
+ 'Pontiac' 'Taylor' 'Rochester Hills' 'Ann Arbor']",42.33143000000122,-83.04574999999552
+Mianyang,CN,975253,"['Mianzhu, Deyang, Sichuan' 'Luojiang' 'Jiangyou' 'Tongchuan'
+ 'Lueeyang Chengguanzhen']",31.46784000000124,104.68167999999632
+Nanchang,CN,165182,['Changleng' 'Jianguang' 'Gongqingcheng'],28.683960000003047,115.85306000000385
+Tashkent,UZ,542184,['Piskent' 'Chirchiq' 'Olmaliq' 'Yangiyul' 'Parkent' 'Ohangaron' 'Tuytepa'],41.26464999999784,69.21627000000235
+Sendai,JP,1377603,"['Shiroishi' 'Osaki' 'Iwanuma' 'Watari' 'Date' 'Kakuda' 'Kurihara'
+ 'Higashine' 'Rifu' 'Kaminoyama' 'Yamoto' 'Tome' 'Higashimatsushima'
+ 'Furukawa' 'Tomiya' 'Yamagata' 'Shiogama' 'Ishinomaki' 'Sagae' 'Soma'
+ 'Tendo']",38.26666999999975,140.86666999999903
+Liuzhou,CN,977875,['Laibin' 'Luorong'],24.324049999998014,109.4069800000012
+Seattle,US,1665316,"['South Hill' 'Puyallup' 'Issaquah' 'Federal Way' 'Parkland' 'Redmond'
+ 'Auburn' 'Sammamish' 'Marysville' 'Renton' 'Burien' 'Bothell'
+ 'West Lake Sammamish' 'Bellevue' 'Tacoma' 'Kirkland' 'Lynnwood' 'Kent'
+ 'Edmonds' 'Everett' 'Bremerton' 'University Place' 'Shoreline'
+ 'City of Sammamish']",47.606210000000516,-122.33206999999912
+Shizuishan,CN,1916651,['Shitanjing' 'Dawukou' 'Yinchuan' 'Wuhai'],38.98081999999797,106.38920000000232
+Marseille,FR,1505557,"['Six-Fours-les-Plages' 'Marseille 08' 'Marseille 05' 'Vitrolles'
+ 'Marignane' 'Marseille 01' 'La Ciotat' 'Marseille 09' 'Marseille 13'
+ 'Aix-en-Provence' 'Marseille 10' 'Marseille 12' 'Marseille 06'
+ 'Marseille 04' 'Marseille 14' 'Marseille 03' 'Aubagne' 'Istres'
+ 'Marseille 15' 'Martigues' 'Marseille 07' 'La Seyne-sur-Mer'
+ 'Marseille 11' 'Toulon' 'Salon-de-Provence']",43.2969499999994,5.381070000000353
+Copenhagen,DK,1219170,"['Horsholm' 'Koge' 'Charlottenlund' 'Rodovre' 'Ballerup' 'Hvidovre'
+ 'Malmoe' 'Landskrona' 'Valby' 'Helsingborg' 'Helsingor' 'Frederiksberg'
+ 'Roskilde' 'Vanlose' 'Greve' 'Taastrup' 'Lund' 'Hillerod']",55.67594000000229,12.565530000003568
+Xuanzhou,CN,1598165,['Wuhu'],30.952500000002967,118.75528000000337
+Jining,CN,1124843,"['Wenshang' 'Zoucheng' 'Yangtun' 'Longgu' 'Yanzhou' 'Zhoucheng' 'Yucheng'
+ 'Shouxian' 'Huankou' 'Qufu' 'Shunhe']",35.40500000000326,116.58138999999967
+Rotterdam,NL,1705784,"['Schiedam' 'Oosterhout' 'Maassluis' 'Vlaardingen' 'Voorburg'
+ 'Bergen op Zoom' 'Zwijndrecht' 'Capelle aan den IJssel' 'Waalwijk'
+ 'Ridderkerk' 'Breda' 'Spijkenisse' 'Delft' 'The Hague' 'Barendrecht'
+ 'Rijswijk' 'Hoogvliet' 'Dordrecht' 'Gorinchem' 'Roosendaal']",51.92250000000198,4.4791700000044266
+Baotou,CN,135061,['Shiguai' 'Salaqi'],40.6516000000011,109.84388999999679
+Medina,SA,946697,['Sultanah'],24.468609999997625,39.61416999999843
+Liuzhi,CN,2086138,['Liupanshui' 'Anshun'],26.234199999996584,105.42600000000306
+Daqing,CN,610862,['Dorbod' 'Honggang' 'Fendou' 'Anda'],46.58332999999998,124.99999999999822
+Xining,CN,508816,['Duoba' 'Lushar' 'Nianbo' 'Qiaotou'],36.62554000000054,101.75739000000407
+Frankfurt am Main,DE,1487447,"['Wiesbaden' 'Gallus' 'Rodgau' 'Offenbach' 'Aschaffenburg' 'Maintal'
+ 'Bad Homburg vor der Hoehe' 'Moerfelden-Walldorf' 'Biebrich' 'Darmstadt'
+ 'Ruesselsheim' 'Hofheim am Taunus' 'Langen' 'Mainz' 'Hanau am Main'
+ 'Oberursel' 'Bensheim' 'Neu-Isenburg' 'Dreieich' 'Dietzenbach']",50.11551999999964,8.684169999998
+Loushanguan,CN,2037775,['Zunyi'],28.136799999998505,106.82199999999936
+Lianyungang,CN,114396,['Ahu' 'Haizhou'],34.59845000000107,119.21556000000042
+Kleinzschocher,DE,1504116,"['Halle (Saale)' 'Grosszschocher' 'Leipzig' 'Altenburg' 'Gohlis'
+ 'Merseburg' 'Halle Neustadt']",51.31567999999767,12.319789999999426
+Tianshui,CN,863381,"[""Pan'an"" 'Yanguan' 'Anyuan' 'Longshan' 'Yongqing' 'Zhangjiachuan'
+ 'Guojia' 'Wuying' 'Liufeng' 'Xingguo' 'Gangu Chengguanzhen' 'Xinxing'
+ 'Lianhua' 'Beidao' 'Jinshan']",34.57952000000281,105.74238000000148
+Yancheng,CN,446311,['Hede' 'Xinghua' 'Dazhong' 'Qinnan' 'Dongtai'],33.35750000000083,120.1573000000035
+Gaziantep,TR,238240,['Birecik' 'Nizip' 'Kilis'],37.059440000002425,37.38250000000405
+Dongsheng,CN,1940653,['Ordos'],39.8160900000025,109.97762999999958
+Leiyang,CN,1898050,['Hengyang' 'Chenzhou'],26.402380000003696,112.85907999999706
+Yichun,CN,976368,['Fenyi' 'Xinyu' 'Youhao'],27.833330000002245,114.39999999999554
+Stuttgart,DE,1387223,"['Bietigheim-Bissingen' 'Pforzheim' 'Esslingen' 'Schorndorf' 'Nurtingen'
+ 'Leonberg' 'Reutlingen' 'Stuttgart-Ost' 'Boeblingen' 'Goeppingen'
+ 'Rottenburg' 'Ludwigsburg' 'Ostfildern' 'Fellbach' 'Tuebingen'
+ 'Filderstadt' 'Heilbronn' 'Sindelfingen' 'Schwaebisch Gmuend' 'Backnang'
+ 'Leinfelden-Echterdingen' 'Kirchheim unter Teck' 'Waiblingen']",48.782319999999345,9.177020000002807
+Guangshui,CN,1848624,['Xinyang' 'Suizhou'],31.619900000001252,113.99779999999602
+Bristol,GB,1537024,"['Newport' 'Mangotsfield' 'Cardiff' 'Mendip' 'Chipping Sodbury' 'Stroud'
+ 'Chippenham' 'Trowbridge' 'Barry' 'Kingswood' 'Bridgwater' 'Yate'
+ 'Pontypool' 'Bath' 'Cwmbran' 'Weston-super-Mare']",51.45523000000269,-2.5966499999968216
+Jishu,CN,1895865,['Jilin'],44.316670000000755,126.79999999999919
+Minneapolis,US,1569734,"['Brooklyn Park' 'Blaine' 'Edina' 'Eden Prairie' 'Cottage Grove'
+ 'Maplewood' 'Coon Rapids' 'Shakopee' 'Plymouth' 'Saint Paul' 'Lakeville'
+ 'Apple Valley' 'Minnetonka' 'Andover' 'Bloomington' 'Maple Grove'
+ 'Saint Louis Park' 'Inver Grove Heights' 'West Coon Rapids' 'Burnsville'
+ 'Minnetonka Mills' 'Richfield' 'Eagan' 'Woodbury']",44.97996999999821,-93.26383999999695
+Luzhou,CN,974491,"['Laisu' 'Shimen' 'Hegeng' 'Shenglilu' 'Taifu' 'Xianlong' 'Hejiang'
+ 'Gusong' 'Yunjin' 'Naxi' 'Changning' 'Zhutuo' ""Jiang'an"" 'Weixinghu'
+ 'Huguo']",28.890300000000764,105.42575000000035
+Kure,JP,1760266,['Matsuyama' 'Hikari' 'Hiroshima'],34.2322199999995,132.5665800000021
+Xiangyang,CN,656290,"['Gucheng Chengguanzhen' 'Yicheng' 'Nanzhang Chengguanzhen' 'Laohekou'
+ 'Zaoyang']",32.042200000001145,112.14479000000361
+Diyarbakir,TR,127177,['Ergani' 'Bismil'],37.91363000000038,40.21720999999865
+Chizhou,CN,1295674,['Lucheng' 'Tongling' 'Anqing'],30.661339999998653,117.47783000000217
+Antalya,TR,560185,['Serik' 'Belek' 'Muratpasa'],36.908120000000785,30.695559999996615
+Dazhou,CN,311133,['Jukui' 'Liangping' 'Pingjin' 'Tieqiao' 'Zhonghe'],31.21060000000041,107.4630800000016
+Baoshan,CN,963172,['Qushi' 'Mangbang' 'Wuhe' 'Tengyue' 'Jietou' 'Bonan' 'Shuangyashan'],25.11626000000336,99.16365999999721
+Guilin,CN,300000,['Yangshuo'],25.280219999997964,110.2963899999972
+Dammam,SA,602735,['Sayhat' 'Dhahran' 'Safwa' 'Tarut' 'Rahimah' 'Al Qatif' 'Khobar'],26.43442000000164,50.10326000000007
+Leshan,CN,1181323,['Meishan' 'Luocheng'],29.562270000002275,103.76386000000424
+Fes,MA,873439,['Ifrane' 'Meknes' 'Fes al Bali' 'Taounate' 'Sefrou'],34.0331299999994,-5.0002800000018865
+Utsunomiya,JP,1346213,"['Nasushiobara' 'Hitachi-ota' 'Katsuta' 'Hitachi-Naka' 'Kasama' 'Mito'
+ 'Okunoya' 'Otawara' 'Kuroiso' 'Mooka' 'Funaishikawa' 'Tomobe' 'Kanuma'
+ 'Imaichi' 'Midori' 'Yaita']",36.56666999999865,139.88332999999596
+Wuyang,CN,1706248,"['Huoqiu Chengguanzhen' ""Lu'an""]",31.992499999997204,116.24722000000315
+Virginia Beach,US,1312755,"['South Suffolk' 'Newport News' 'Suffolk' 'Hampton' 'Portsmouth'
+ 'East Hampton' 'Norfolk' 'Portsmouth Heights' 'Chesapeake']",36.85293000000132,-75.97798999999611
+Kanazawa,JP,1278201,"['Nanto' 'Takaoka' 'Komatsu' 'Nonoichi' 'Nanao' 'Kaga' 'Matsuto' 'Tsubata'
+ 'Toyama' 'Himimachi' 'Himi' 'Nanto-shi' 'Maruoka' 'Nishishinminato'
+ 'Tonami']",36.60000000000162,136.61667000000276
+Sacramento,US,1233823,"['Vacaville' 'Rancho Cordova' 'Davis' 'Citrus Heights' 'Lincoln' 'Folsom'
+ 'Elk Grove' 'Foothill Farms' 'Woodland' 'Rocklin' 'North Highlands'
+ 'West Sacramento' 'Florin' 'Carmichael' 'Orangevale' 'Laguna'
+ 'El Dorado Hills' 'Antelope' 'Arden-Arcade']",38.58156999999899,-121.49439999999733
+Hamamatsu,JP,930011,"['Yaizu' 'Kosai' 'Kakegawa' 'Tahara' 'Shimada' 'Kikugawa' 'Hamakita'
+ 'Fukuroi' 'Fujieda' 'Iwata']",34.70000000000105,137.73333000000082
+Tampa,US,1331039,"['Pinellas Park' 'Bradenton' 'Wesley Chapel' 'University' 'Lakeland'
+ 'Clearwater' 'Plant City' 'Riverview' 'Carrollwood Village' 'Valrico'
+ 'Sarasota' 'Egypt Lake-Leto' 'Largo' 'Carrollwood' 'Palm Harbor'
+ 'St. Petersburg' 'Brandon' 'Dunedin' ""Town 'n' Country""]",27.947520000000036,-82.45843000000185
+Lisbon,PT,1188910,"['Amadora' 'Setubal' 'Oeiras' 'Algueirao' 'Sao Domingos de Rana' 'Cascais'
+ 'Sesimbra' 'Olivais' 'Cacem' 'Corroios' 'Odivelas' 'Queluz' 'Benfica'
+ 'Almada' 'Amora' 'Loures' 'Rio de Mouro' 'Alcabideche' 'Barreiro']",38.716669999997194,-9.133330000000635
+Las Vegas,US,1080079,"['North Las Vegas' 'Paradise' 'Enterprise' 'Henderson' 'Sunrise Manor'
+ 'Whitney']",36.17496999999876,-115.13721999999898
+Binzhou,CN,998968,['Dongying'],37.366669999997654,118.01667000000175
+Yangjiang,CN,346197,['Encheng' 'Yangchun' 'Tangping'],21.855629999997586,111.96272000000118
+Munich,DE,363310,"['Pasing' 'Freising' 'Erding' 'Rosenheim' 'Dachau' 'Germering'
+ 'Fuerstenfeldbruck' 'Bogenhausen']",48.13743000000229,11.57549000000332
+Lyon,FR,1090353,"['Vienne' 'Lyon 08' 'Vaulx-en-Velin' 'Caluire-et-Cuire' 'Lyon 07'
+ 'Venissieux' 'Saint-Etienne' 'Villefranche-sur-Saone' 'Bron' 'Lyon 05'
+ 'Lyon 04' 'Lyon 03' 'Saint-Priest' 'Lyon 09' 'Saint-Chamond'
+ 'Villeurbanne' 'Lyon 06']",45.748460000002254,4.846710000002992
+Changde,CN,149051,['Qionghu' 'Jinshi'],29.032049999997504,111.6984399999998
+Belgrade,RS,326474,['Smederevo' 'Ruma' 'Pancevo' 'Zemun'],44.804009999999586,20.46512999999868
+Meizhou,CN,594732,['Huacheng' 'Shuizhai' 'Hengbei' 'Xingning'],24.28859000000325,116.11767999999742
+San Antonio,US,147067,['New Braunfels' 'Cibolo' 'Schertz'],29.42412000000114,-98.49362999999917
+Zaozhuang,CN,677724,['Taozhuang' 'Chengtangcun' 'Datun' 'Shanting' 'Xiazhen' 'Peicheng'],34.8647199999971,117.55417000000075
+Yichang,CN,219552,['Zhijiang' 'Zhicheng'],30.714439999999634,111.28471999999974
+Marg'ilon,UZ,1309200,['Fergana' 'Namangan'],40.472369999999856,71.72463000000042
+Salt Lake City,US,1357730,"['Tooele' 'Lehi' 'Layton' 'Sandy Hills' 'Kearns' 'Taylorsville' 'Ogden'
+ 'Riverton' 'Millcreek' 'Bountiful' 'Roy' 'Pleasant Grove' 'West Jordan'
+ 'Murray' 'South Jordan Heights' 'Midvale' 'Cottonwood Heights'
+ 'South Jordan' 'Sandy' 'Draper' 'West Valley City' 'Orem']",40.76077999999818,-111.89105000000258
+Niigata,JP,741848,"['Shirone' 'Murakami' 'Shibata' 'Gosen' 'Nagaoka' 'Mitsuke' 'Tsubame'
+ 'Niitsu-honcho' 'Kameda-honcho' 'Sanjo']",37.886369999996894,139.00589000000178
+Taichung,TW,487103,['Douliu' 'Wufeng' 'Nantou' 'Yuanlin' 'Puli'],24.146900000002518,120.68389999999687
+Guozhen,CN,1437802,['Baoji'],34.36591000000032,107.35904000000278
+Galesong,ID,1423877,['Makassar'],-5.31660000000415,119.36610000000023
+Liaocheng,CN,263967,['Qingnian' 'Yanggu' 'Yanta'],36.450639999999204,116.00247000000006
+Bielefeld,DE,1159885,"['Herford' 'Lippstadt' 'Osnabrueck' 'Melle' 'Loehne' 'Lemgo' 'Warendorf'
+ 'Minden' 'Bad Oeynhausen' 'Rheda-Wiedenbrueck' 'Guetersloh' 'Paderborn'
+ 'Detmold' 'Bad Salzuflen' 'Porta Westfalica' 'Lage' 'Georgsmarienhuette'
+ 'Buende']",52.03332999999922,8.533330000000312
+Atlanta,US,1027595,"['Brookhaven' 'Kennesaw' 'Roswell' 'Marietta' 'Redan' 'Mableton'
+ 'Dunwoody' 'Stonecrest' 'Newnan' 'Milton' 'Peachtree City'
+ 'Peachtree Corners' 'East Point' 'Douglasville' 'Johns Creek'
+ 'Alpharetta' 'Sandy Springs' 'South Fulton' 'North Atlanta']",33.749000000002376,-84.3879800000004
+Situbondo,ID,796119,"['Besuki' 'Bondowoso' 'Sumenep' 'Genteng' 'Balung' 'Banyuwangi' 'Panji'
+ 'Jember']",-7.7062299999972375,114.00975999999703
+New South Memphis,US,839345,['Southaven' 'Memphis' 'Cordova' 'Olive Branch' 'Collierville'],35.086760000002656,-90.05675999999957
+Kumamoto,JP,725592,"['Isahaya' 'Uki' 'Shimabara' 'Arao' 'Tamana' 'Hondomachi-hondo' 'Yamaga'
+ 'Kikuchi' 'Uto' 'Ozu' 'Hitoyoshi' 'Amakusa' 'Koshi']",32.80589000000361,130.69180999999764
+Heze,CN,116313,['Dingtao' 'Juye'],35.239289999996444,115.47357999999694
+Jiujiang,CN,298294,['Huangmei' 'Wuxue'],29.70474999999775,116.00206000000207
+Shizuoka,JP,765221,"['Numazu' 'Atami' 'Izunokuni' 'Gotenba' 'Mishima' 'Fujinomiya' 'Ito'
+ 'Fujiyoshida' 'Susono']",34.98332999999824,138.38333000000415
+Murcia,ES,988322,"['Cieza' 'Torrevieja' 'Molina de Segura' 'Alcantarilla' 'Elda' 'Lorca'
+ 'Orihuela' 'Elche' 'Cartagena' 'Torre-Pacheco' 'Mazarron']",37.98703999999745,-1.1300399999997226
+Batam,ID,276616,['Tanjung Pinang' 'Tanjung Balai'],1.149370000001346,104.02490999999898
+Cumra,TR,1390051,['Konya'],37.573200000002835,32.774460000004375
+Bandar Lampung,ID,263507,['Terbanggi Besar' 'Metro' 'Kotabumi'],-5.429169999995933,105.26111000000218
+Jingzhou,CN,375683,['Buhe' 'Duobao' 'Qianjiang'],30.350279999999664,112.19028000000193
+Portland,US,727436,"['Lake Oswego' 'Beaverton' 'Gresham' 'Hillsboro' 'Aloha' 'Oregon City'
+ 'McMinnville' 'Vancouver' 'Tigard' 'Lewiston']",45.52345000000125,-122.67621000000273
+Yulin,CN,318279,['Beiliu' 'Yashan' 'Nandu'],22.630499999997824,110.14686000000006
+Tangier,MA,685506,"['Martil' 'Fnidek' 'Ceuta' 'Algeciras' 'La Linea de la Concepcion'
+ 'Tetouan']",35.767270000001666,-5.799749999997409
+Lengshuijiang,CN,1250365,['Loudi' 'Shaoyang'],27.688059999996877,111.42944000000332
+Kansas City,US,886087,"['Olathe' 'Overland Park' 'Leavenworth' 'Leawood' 'Blue Springs'
+ ""Lee's Summit"" 'East Independence' 'Shawnee' 'Independence' 'Lenexa']",39.099730000000946,-94.57857000000018
+Raleigh,US,899516,['Cary' 'West Raleigh' 'Wake Forest' 'Apex' 'Chapel Hill' 'Durham'],35.7721000000002,-78.6386100000015
+Yuncheng,CN,669307,['Sanmenxia'],35.023060000001486,110.99278000000145
+Charlotte,US,474357,"['Huntersville' 'Concord' 'Gastonia' 'Monroe' 'Salisbury' 'Kannapolis'
+ 'Indian Trail' 'Rock Hill' 'Mooresville']",35.227090000001255,-80.84312999999624
+Shaoguan,CN,310873,['Maba' 'Lecheng' 'Shixing'],24.800000000003763,113.58332999999682
+Aachen,DE,1065340,"['Maasmechelen' 'Wuerselen' 'Geleen' 'Heerlen' 'Verviers' 'Herzogenrath'
+ 'Kerkrade' 'Stolberg' 'Herstal' 'Alsdorf' 'Seraing' 'Genk' 'Heinsberg'
+ 'Roermond' 'Liege' 'Sittard' 'Maastricht']",50.77663999999716,6.083420000003446
+Helsinki,FI,668933,"['Jaervenpaeae' 'Tuusula' 'Kirkkonummi' 'Vuosaari' 'Espoo' 'Mellunkylae'
+ 'Nurmijaervi' 'Vantaa']",60.16952000000212,24.9354499999988
+Jixi,CN,920070,['Hengshan' 'Chengzihe' 'Jidong' 'Linkou' 'Qitaihe' 'Didao' 'Muling'],45.293220000000645,130.96216999999882
+Austin,US,376402,['Georgetown' 'Cedar Park' 'Leander' 'Kyle' 'Round Rock' 'Pflugerville'],30.26715000000125,-97.74305999999653
+Indianapolis,US,420038,"['Westfield' 'Noblesville' 'Lawrence' 'Fishers' 'Anderson' 'Carmel'
+ 'Greenwood']",39.76837999999925,-86.15803999999554
+Yingkou,CN,705263,['Dashiqiao' 'Panshan'],40.66472000000261,122.23176000000338
+Balai Pungut,ID,1228760,['Pekanbaru' 'Dumai'],1.0594900000004477,101.29054000000262
+Kayseri,TR,72758,['Talas' 'Develi'],38.73222000000349,35.485280000002376
+Turin,IT,427860,"['Grugliasco' 'Asti' 'Venaria Reale' 'Nichelino' 'Collegno' 'Rivoli'
+ 'Settimo Torinese' 'Moncalieri' 'Chieri']",45.07049000000186,7.6868200000040305
+Hulan Ergi,CN,988748,['Longjiang' 'Qiqihar'],47.20416999999999,123.63333000000222
+Fuling,CN,959217,"['Changshouhu' 'Wulong' 'Shuijiang' 'Lizhi' 'Longhe' 'Shetan' 'Mawu'
+ ""Gao'an"" 'Lidu' 'Baisheng' 'Zhenxi' 'Longqiao' 'Mingshan' 'Baitao'
+ 'Gaojia' 'Sanhe']",29.7099700000016,107.39391000000315
+Samarinda,ID,391733,['Loa Janan' 'Bontang'],-0.49166999999669936,117.14582999999648
+Yueyang,CN,230210,['Xindi' 'Nanzhou'],29.37454999999838,113.09480999999977
+Guiping,CN,1148810,['Guigang' 'Pingnan'],23.39482999999785,110.074340000003
+Cleveland,US,828875,"['Stow' 'Akron' 'Elyria' 'Westlake' 'North Olmsted' 'North Ridgeville'
+ 'Mentor' 'Cleveland Heights' 'Brunswick' 'Lorain' 'Collinwood'
+ 'Cuyahoga Falls' 'Euclid' 'Strongsville' 'Parma']",41.49949999999873,-81.6954100000026
+Kagoshima,JP,620346,"['Satsumasendai' 'Kokubu-matsuki' 'Kaseda-shirakame' 'Kobayashi'
+ 'Miyakonojo' 'Kanoya' 'Kirishima' 'Hamanoichi']",31.566669999998158,130.5500000000012
+Glasgow,GB,587590,"['Paisley' 'Hamilton' 'Falkirk' 'Coatbridge' 'East Kilbride' 'Greenock'
+ 'Cumbernauld' 'Stirling' 'Motherwell' 'Kilmarnock' 'Meikle Earnock'
+ 'Airdrie']",55.865149999999005,-4.257629999998514
+Malaga,ES,632254,"['Rincon de la Victoria' 'Alhaurin de la Torre' 'San Pedro Alcantara'
+ 'Benalmadena' 'Antequera' 'Fuengirola' 'Mijas' 'Marbella' 'Velez-Malaga'
+ 'Torremolinos']",36.72015999999803,-4.420339999998752
+Koriyama,JP,887593,['Fukushima' 'Nihommatsu' 'Iwaki' 'Yonezawa' 'Minami-Soma' 'Kitakata'],37.39999999999771,140.3833299999992
+Hanzhong,CN,200981,['Mianyang' 'Chenggu'],33.07506999999705,107.02213999999609
+Columbus,US,293641,"['Gahanna' 'Upper Arlington' 'Reynoldsburg' 'Delaware' 'Grove City'
+ 'Westerville' 'Hilliard' 'Phenix City']",39.9611799999984,-82.99879000000138
+Padang,ID,286649,['Bukittinggi' 'Solok' 'Pariaman'],-0.9492399999964789,100.35427000000278
+Pekalongan,ID,865110,"['Pemalang' 'Wonopringgo' 'Purwokerto' 'Wiradesa' 'Kedungwuni' 'Comal'
+ 'Baturaden' 'Purbalingga' 'Sokaraja' 'Buaran']",-6.8885999999965035,109.67530000000433
+Takasaki,JP,794057,"['Fujioka' 'Shibukawa' 'Numata' 'Saku' 'Tomioka' 'Komoro' 'Annaka'
+ 'Maebashi' 'Kanekomachi' 'Tamamura']",36.333329999997964,139.01667000000404
+Nagano,JP,800133,['Hotaka' 'Shiojiri' 'Joetsu' 'Chikuma' 'Matsumoto' 'Ueda' 'Suzaka'],36.649999999999146,138.18333000000104
+Lodz,PL,383314,"['Piotrkow Trybunalski' 'Tomaszow Mazowiecki' 'Zdunska Wola' 'Zgierz'
+ 'Belchatow' 'Pabianice']",51.77057999999858,19.473950000002965
+Hannover,DE,633983,"['Lehrte' 'Celle' 'Wunstorf' 'Langenhagen' 'Neustadt am Ruebenberge'
+ 'Laatzen' 'Hildesheim' 'Seelze' 'Nienburg' 'Hameln' 'Garbsen' 'Peine']",52.37051999999803,9.733220000000841
+Orlando,US,841362,"['Merritt Island' 'Poinciana' 'Clermont' 'Titusville' 'Apopka' 'Kissimmee'
+ 'Ocoee' 'Deltona' 'Alafaya' 'Pine Hills' 'Winter Springs' 'Winter Garden'
+ 'Saint Cloud' 'Winter Haven' 'Oviedo' 'Sanford' 'Altamonte Springs']",28.538339999996843,-81.37924000000359
+Milwaukee,US,544365,"['Greenfield' 'Racine' 'Wauwatosa' 'West Allis' 'Menomonee Falls'
+ 'Brookfield' 'Oak Creek' 'New Berlin' 'Kenosha' 'Waukesha']",43.03889999999957,-87.90646999999838
+Mannheim,DE,836277,"['Viernheim' 'Heidelberg' 'Ludwigshafen am Rhein' 'Speyer' 'Frankenthal'
+ 'Worms' 'Sinsheim' 'Neustadt an der Weinstrasse' 'Kaiserslautern'
+ 'Bruchsal' 'Landau in der Pfalz' 'Weinheim']",49.4891000000017,8.466939999998205
+Sanya,CN,112269,['Wuzhishan'],18.243060000003812,109.50499999999619
+Eskisehir,TR,240373,['Kutahya' 'Bozuyuk'],39.77666999999956,30.52056000000401
+Nashville,US,444379,"['Smyrna' 'Hendersonville' 'Murfreesboro' 'Spring Hill' 'La Vergne'
+ 'Gallatin' 'Hermitage' 'Franklin']",36.16589000000043,-86.78443999999637
+Ankang,CN,251192,"['Langao Chengguanzhen' 'Pingli' 'Ziyang Chengguanzhen'
+ 'Hanyin Chengguanzhen' 'Xunyang']",32.68000000000343,109.0172199999975
+Fenghuang,CN,745547,['Tongren' 'Huaihua' 'Qianzhou'],27.935570000000304,109.59960999999664
+Yongzhou,CN,88935,['Lengshuitan'],26.423890000002753,111.61305999999918
+Xinzhi,CN,1036376,['Jiexiu' 'Linfen'],36.498889999996805,111.70471999999819
+Newcastle upon Tyne,GB,798827,"['Cramlington' 'Felling' 'Gateshead' 'Blyth' 'South Shields'
+ 'Chester-le-Street' 'Houghton-Le-Spring' 'Whitley Bay' 'Newburn'
+ 'Wallsend' 'North Shields' 'Peterlee' 'Hartlepool' 'Sunderland']",54.97327999999744,-1.6139600000025889
+Babu,CN,1005490,['Hezhou'],24.416669999999883,111.51667000000424
+Xuanhua,CN,692602,['Zhangjiakou'],40.61204999999717,115.06462999999614
+Dali,CN,822185,"['Fengyi' 'Xiangcheng' 'Yunnanyi' 'Dali Old Town' 'Jinniu' 'Yongjian'
+ 'Nanjian' 'Miaojie' 'Micheng' 'Zibihu' 'Yousuo']",25.58474000000201,100.21229000000125
+Bilbao,ES,708770,"['Algorta' 'Basauri' 'Santutxu' 'Gasteiz / Vitoria' 'Barakaldo'
+ 'Portugalete' 'Santurtzi' 'Getxo']",43.26270999999683,-2.925280000002269
+Sevilla,ES,357215,"['Alcala de Guadaira' 'Dos Hermanas' 'Mairena del Aljarafe'
+ 'Los Palacios y Villafranca' 'Utrera' 'La Rinconada']",37.3828300000024,-5.973170000003072
+Qinhuangdao,CN,270476,['Changli' 'Beidaihehaibin' 'Shanhaiguan'],39.93166999999783,119.58833000000034
+Jacksonville,US,75400,['Ponte Vedra Beach' 'St. Johns'],30.332180000003177,-81.65565000000207
+Bari,IT,707426,"['Bitonto' 'Andria' 'Monopoli' 'Bisceglie' 'Corato' 'Barletta' 'Modugno'
+ 'Gravina in Puglia' 'Matera' 'Altamura' 'Molfetta' 'Trani']",41.12066000000003,16.869819999998363
+Oklahoma City,US,332672,['Norman' 'Edmond' 'Moore' 'Midwest City'],35.467560000001946,-97.51643000000084
+Denpasar,ID,275442,['Negara' 'Tabanan' 'Ubud' 'Singaraja'],-8.649999999995886,115.21667000000325
+Bologna,IT,604599,"['Ferrara' 'Imola' 'Faenza' 'Modena' 'Casalecchio di Reno' 'Sassuolo'
+ 'Formigine' 'Carpi Centro']",44.49380999999742,11.338749999997926
+Gdansk,PL,520727,"['Malbork' 'Gdynia' 'Rumia' 'Starogard Gdanski' 'Tczew' 'Sopot'
+ 'Wejherowo']",54.35227000000151,18.64912000000311
+Hengshui,CN,444399,['Nangong' 'Jizhou'],37.739079999999184,115.68348000000137
+Southampton,GB,682589,"['Christchurch' 'Fareham' 'Poole' 'Gosport' 'Havant' 'Totton'
+ 'Waterlooville' 'Bournemouth' 'Eastleigh']",50.903950000001686,-1.404279999998399
+Manchester,GB,542775,"['Crewe' 'Prestwich' 'Middleton' 'Wilmslow' 'Rossendale' 'Blackburn'
+ 'Accrington' 'Bury' 'East Concord']",53.48094999999853,-2.2374300000036462
+Florence,IT,562322,"['Sesto Fiorentino' 'Campi Bisenzio' 'Scandicci' 'Siena' 'Capannori'
+ 'Prato' 'Cascina' 'Empoli' 'Pistoia']",43.77925000000069,11.246260000002149
+Krakow,PL,174258,['Chrzanow' 'Olkusz' 'Jaworzno'],50.06142999999928,19.93657999999675
+Pingliang,CN,411854,['Guyuan'],35.539170000002244,106.68610999999845
+Wuzhou,CN,142945,['Nanfeng' 'Jinji'],23.480539999997134,111.28847999999631
+Springfield,US,740564,"['New Britain' 'West Hartford' 'Holyoke' 'Chicopee' 'Hartford'
+ 'East Hartford' 'Torrington' 'Enfield' 'West Torrington' 'North Chicopee'
+ 'Eugene']",42.10148000000106,-72.5898099999957
+Lille,FR,657021,"['Douai' 'Wattrelos' 'Ieper' 'Roubaix' 'Tourcoing' 'Valenciennes' 'Arras'
+ 'Lens' 'Lievin' 'Marcq-en-Baroeul' 'Tournai' ""Villeneuve-d'Ascq""]",50.632970000001144,3.058579999995592
+Siping,CN,334864,['Changtu' 'Lishu' 'Gongzhuling' 'Xifeng'],43.161430000000955,124.37784999999855
+Buraydah,SA,142598,['Al Mithnab' 'Ar Rass'],26.325989999998185,43.97496999999567
+Bremen,DE,335375,['Oldenburg' 'Vegesack' 'Delmenhorst' 'Stuhr' 'Burglesum'],53.07581999999841,8.807170000001838
+Wroclaw,PL,246853,"['Swidnica' 'Olawa' 'Dzierzoniow' 'Brzeg' 'Olesnica'
+ 'Rejon placu Swietego Macieja']",51.099999999998225,17.03333000000188
+Nuernberg,DE,362858,['Schwabach' 'Erlangen' 'Neumarkt in der Oberpfalz' 'Furth' 'Bamberg'],49.45420999999911,11.07751999999727
+Fresno,US,354151,['Madera' 'Clovis' 'Visalia' 'Hanford'],36.74773000000048,-119.77237000000399
+Panzhihua,CN,84157,['Rongjiang' 'Zhongxin'],26.585090000000886,101.712759999996
+Zurich,CH,505463,"['Zuerich (Kreis 9)' 'Zuerich (Kreis 3)' 'Singen' 'Zuerich (Kreis 7)'
+ 'Luzern' 'Rapperswil' 'Winterthur' 'Zuerich (Kreis 10)'
+ 'Zuerich (Kreis 11)' 'Schaffhausen']",47.366669999998486,8.549999999995608
+Naha,JP,529776,"['Gushikawa' 'Yomitan' 'Katsuren-haebaru' 'Itoman' 'Ginowan' 'Nago'
+ 'Tomigusuku' 'Okinawa']",26.213000000002957,127.678510000001
+Oulad Teima,MA,769443,['Agadir' 'Taroudant'],30.39467000000164,-9.208970000004198
+Oslo,NO,254597,['Asker' 'Lillestrom' 'Drammen'],59.91272999999961,10.746090000002793
+Baishan,CN,641874,['Hepingjie' 'Tonghua' 'Sanchazi'],41.93853000000055,126.41965000000118
+Banjarmasin,ID,167081,['Martapura' 'Kualakapuas'],-3.3198699999972043,114.59074999999717
+Mudanjiang,CN,153541,['Chaihe' 'Hailin'],44.54803999999744,129.62593999999612
+El Paso,US,134865,['Socorro' 'Las Cruces'],31.758719999999848,-106.48693000000029
+Hotan,CN,405160,"['Saybag' 'Puqiakeqi' 'Bageqi' 'Qaraqash' 'Zhawa' ""Ka'ersai"" 'Yawa'
+ ""Han'airike"" 'Kuiya']",37.107499999998396,79.93548000000085
+Porto,PT,538259,"['Felgueiras' 'Vila Nova de Gaia' 'Aveiro' 'Rio Tinto' 'Maia' 'Espinho'
+ 'Guimaraes' 'Ermesinde' 'Esposende' 'Braga']",41.14961000000282,-8.610990000000262
+Dresden,DE,231171,['Pirna' 'Riesa' 'Freital' 'Leuben' 'Freiberg' 'Radebeul'],51.0508900000003,13.738319999999584
+Zaragoza,ES,110520,['Delicias'],41.656059999998455,-0.877340000003857
+Nagasaki,JP,377883,['Omura' 'Obita' 'Sasebo'],32.74999999999663,129.88333000000256
+Luobei,CN,743307,['Hegang'],47.57601999999977,130.81310999999565
+Palermo,IT,132662,['Carini' 'Alcamo' 'Bagheria'],38.11660000000022,13.363600000000083
+Southend-on-Sea,GB,483651,"['Canterbury' 'Colchester' 'Clacton-on-Sea' 'Herne Bay' 'Maidstone'
+ 'Ashford' 'Sittingbourne']",51.53782000000156,0.714329999996774
+Albuquerque,US,216018,['Rio Rancho' 'South Valley' 'Enchanted Hills'],35.08449000000081,-106.65113999999883
+New Orleans,US,381202,['Kenner' 'Marrero' 'Metairie Terrace' 'Metairie'],29.954650000003152,-90.07506999999575
+Nice,FR,423854,"['Frejus' 'Le Cannet' 'Antibes' 'Cannes' 'San Remo' 'Saint-Raphael'
+ 'Cagnes-sur-Mer' 'Grasse']",43.70312999999694,7.266079999998301
+Guangyuan,CN,245791,"[""Pu'an"" 'Xiasi' 'Hanyuan' 'Jiachuan' 'Donghe']",32.442010000000096,105.82300000000367
+Oita,JP,283677,['Tsurusaki' 'Beppu' 'Usuki' 'Saiki'],33.23332999999839,131.60000000000176
+Fuxin,CN,68603,['Heishan'],42.01556000000284,121.65889000000105
+Yanji,CN,429264,['Helong' 'Longjing' 'Antu' 'Wangqing' 'Tumen'],42.888249999997825,129.50241000000233
+Jiayuguan,CN,513115,['Jiuquan' 'Laojunmiao'],39.81121000000211,98.28617999999973
+Jingmen,CN,108883,['Zhongxiang'],31.033610000003147,112.20472000000144
+Huocheng,CN,376099,['Bayandai' 'Yili' 'Jelilyuezi' 'Dadamtu'],44.05304999999849,80.87172999999903
+Tucson,US,204209,['Catalina Foothills' 'Casas Adobes' 'Marana' 'Oro Valley'],32.22173999999847,-110.9264799999978
+Thessaloniki,GR,401770,"['Evosmos' 'Polichni' 'Kalamaria' 'Sykies' 'Katerini' 'Stavroupoli'
+ 'Pylaia']",40.64360999999817,22.930860000001392
+Freiburg,DE,502630,"['Mulhouse' 'Basel' 'Loerrach' 'Villingen-Schwenningen' 'Rheinfelden'
+ 'Colmar']",47.99589999999787,7.852220000002167
+Bydgoszcz,PL,346210,['Fordon' 'Torun' 'Inowroclaw'],53.12349999999828,18.007620000002074
+Manado,ID,258451,['Tondano' 'Bitung'],1.4821800000031446,124.84891999999866
+Jerez de la Frontera,ES,497009,"['Sanlucar de Barrameda' 'Chiclana de la Frontera' 'San Fernando'
+ 'El Puerto de Santa Maria' 'Cadiz' 'Puerto Real']",36.686449999999674,-6.136060000000231
+Urgut Shahri,UZ,656272,['Shahrisabz' 'Samarkand'],39.4190199999991,67.26118000000254
+Edinburgh,GB,195040,['Kirkcaldy' 'Dunfermline' 'Glenrothes' 'Livingston'],55.9520599999977,-3.19648000000105
+Jambi City,ID,92920,['Simpang' 'Mendaha'],-1.600000000002659,103.616670000003
+Greensboro,US,403958,['Winston-Salem' 'Burlington' 'High Point'],36.0726400000027,-79.79197999999937
+Catania,IT,367670,"['Siracusa' 'Paterno' 'Acireale' 'Caltagirone' 'Misterbianco' 'Adrano'
+ 'Mascalucia']",37.49223000000035,15.070410000001276
+Las Palmas de Gran Canaria,ES,297790,['San Bartolome de Tirajana' 'Telde' 'Arucas' 'Santa Lucia' 'Maspalomas'],28.09973000000158,-15.413430000002094
+Modesto,US,460386,['Merced' 'Stockton' 'Turlock'],37.63909999999883,-120.99688000000154
+Ercis,TR,577797,['Adilcevaz' 'Van'],39.02587000000123,43.35964000000309
+Jeju City,KR,178552,['Seogwipo'],33.509719999998985,126.521939999999
+Santa Cruz de Tenerife,ES,458892,"['Realejo Alto' 'Puerto de la Cruz' 'La Laguna' 'La Orotava'
+ 'Los Realejos' 'Adeje' 'Arona' 'Granadilla de Abona']",28.468240000003245,-16.254619999998557
+Belfast,GB,318292,['Craigavon' 'Lisburn' 'Newtownabbey' 'Castlereagh' 'Bangor'],54.59682000000241,-5.925409999996665
+Aomori,JP,364432,['Misawa' 'Kuroishi' 'Towada' 'Goshogawara' 'Hirosaki'],40.8166699999997,140.7333300000024
+Curup,ID,607757,['Bengkulu' 'Lubuklinggau'],-3.470299999998356,102.52070000000033
+St. Louis,US,332586,"['Wentzville' 'Saint Peters' 'Wildwood' 'Florissant' ""O'Fallon""
+ 'University City' 'Oakville']",38.627269999999726,-90.19789000000266
+Goeteborg,SE,59430,['Moelndal'],57.70716000000068,11.966789999999655
+Xianning,CN,132891,['Puqi'],29.843469999997062,114.32201000000423
+Padova,IT,440703,"['Mestre' 'Chioggia' 'Rovigo' 'Mira Taglio' 'Bassano del Grappa' 'Treviso'
+ 'Arcella']",45.40796999999762,11.885859999998756
+Genoa,IT,61345,['Savona'],44.40477999999787,8.944389999995973
+Eindhoven,NL,431239,['Uden' 'Tilburg' 'Weert' 'Beringen' 'Wijchen' 'Helmond'],51.44082999999975,5.47778000000379
+Poznan,PL,70269,['Gniezno'],52.40692000000115,16.929930000002102
+Ji'an,CN,94445,['Dunhou'],27.1171600000021,114.97926999999716
+Shihezi,CN,60129,['Sandaohezi'],44.302300000001466,86.03693999999612
+Batman,TR,174338,['Kurtalan' 'Silvan' 'Midyat'],37.88738000000044,41.13221000000004
+Meads,US,337287,['Ironville' 'Huntington'],38.412579999998826,-82.70904999999638
+Rimini,IT,465664,['Pesaro' 'Riccione' 'Forli' 'Ravenna' 'Fano' 'Cesena'],44.057550000002315,12.565280000000858
+Adapazari,TR,327525,['Karasu Mahallesi' 'Hendek' 'Izmit' 'Goelcuek'],40.780560000002204,30.40333000000127
+Braunschweig,DE,368230,['Salzgitter' 'Wolfsburg' 'Gifhorn' 'Goslar' 'Wolfenbuettel'],52.265939999999595,10.526729999997514
+Huangshan,CN,146045,['Wucheng' 'Biyang' 'Haiyang'],29.71139000000349,118.31249999999838
+Yong'an,CN,458016,"['Zhuyi' 'Kangle' 'Dachang' 'Fenhe' 'Chengxiang' 'Futian' 'Zhuyuan'
+ 'Baidi' 'Gongping' 'Guandu']",31.018939999996626,109.45948999999622
+Khamis Mushait,SA,210886,['Abha'],18.29999999999885,42.7333300000007
+Merkezefendi,TR,313238,['Denizli'],37.80543999999889,29.042360000000574
+Cangzhou,CN,63045,['Botou'],38.31124000000112,116.85333999999759
+Andijon,UZ,142917,['Quva' 'Xonobod' 'Oyim' 'Qorasuv'],40.78205999999871,72.34423999999665
+Ordu,TR,361236,['Bulancak' 'UEnye' 'Fatsa' 'Kumru' 'Giresun'],40.97782000000264,37.89047000000172
+Yan'an,CN,113698,['Wayaobu'],36.598890000002356,109.49166999999866
+Izumo,JP,415084,['Yasugicho' 'Matsue' 'Yonago' 'Odacho-oda' 'Sakaiminato'],35.366669999997754,132.7666700000037
+Al Hufuf,SA,290802,['Al Mubarraz'],25.36466999999853,49.58763999999852
+Nimes,FR,433862,['Avignon' 'Montpellier' 'Ales' 'Arles'],43.83665000000317,4.357879999998284
+Honolulu,US,209060,['Pearl City' 'Kailua' 'Kaneohe' 'Waipahu' 'East Honolulu'],21.306940000001358,-157.85833000000412
+Kaili,CN,303831,['Sankeshu' 'Xiaoweizhai' 'Duyun'],26.585830000002804,107.97971999999767
+Wenshan City,CN,127973,['Mabai' 'Kaihua'],23.363059999998658,104.25046999999603
+Selong,ID,484991,['Taliwang' 'Mataram'],-8.65029999999728,116.53180000000361
+Iskenderun,TR,412837,['Antakya' 'Osmaniye'],36.587179999999556,36.17347000000217
+Nijmegen,NL,413510,['Arnhem' 'Apeldoorn' 'Kleve' 'Zutphen' 'Doetinchem'],51.84250000000074,5.852779999999499
+Palma,ES,161748,['Llucmajor' 'Calvia' 'Marratxi' 'Manacor'],39.569389999999316,2.650240000000311
+Nada,CN,310587,['Dacheng' 'Dongcheng' 'Baimajing' 'Mutang' 'Sandu'],19.5213400000002,109.57895000000373
+Oujda-Angad,MA,159613,['Jerada' 'El Aioun' 'Berkane'],34.681389999996746,-1.9085799999979691
+Starachowice,PL,509381,['Kielce' 'Radom' 'Ostrowiec Swietokrzyski'],51.037400000002556,21.07126000000293
+Enshi,CN,281754,['Xinglong' 'Miaoyu' 'Tuxiang' 'Yezhou' 'Tuanbao'],30.29999999999984,109.4833300000006
+Hulunbuir,CN,211066,['Hailar'],49.211410000002594,119.75582000000065
+Broken Arrow,US,451522,['Muskogee' 'Tulsa'],36.05260000000267,-95.79081999999886
+Basuo,CN,111075,['Haitou' 'Yaxing'],19.102670000000433,108.6656499999992
+Erfurt,DE,341517,['Muehlhausen' 'Jena' 'Suhl' 'Gotha' 'Weimar' 'Eisenach'],50.9786999999998,11.032830000002223
+Buffalo,US,291171,['Niagara Falls' 'Cheektowaga' 'Amherst' 'West Seneca'],42.88644999999842,-78.87836999999617
+Kingston upon Hull,GB,234885,['Grimsby' 'Bridlington' 'Scunthorpe' 'Cleethorpes'],53.74459999999775,-0.3352499999960028
+Council Bluffs,US,486051,['Omaha'],41.261939999999946,-95.86083000000392
+Montauban,FR,493465,['Toulouse'],44.01758999999714,1.3541999999977445
+Jingdezhen,CN,70787,['Poyang'],29.29469999999916,117.20788999999981
+Cape Coral,US,368645,"['Bonita Springs' 'Lehigh Acres' 'Fort Myers' 'Port Charlotte'
+ 'North Fort Myers' 'North Port']",26.562850000001088,-81.94952999999913
+Muenster,DE,270496,['Ahaus' 'Steinfurt' 'Rheine' 'Greven' 'Emsdetten' 'Ibbenbueren'],51.96236000000264,7.625709999998436
+Lexington-Fayette,US,225366,['Lexington'],38.049799999998875,-84.45854999999789
+Samsun,TR,143403,['Carsamba' 'Bafra'],41.27975999999774,36.33609999999579
+Longling County,CN,267386,['Menghuan' 'Mangshi' 'Fengping' 'Zhefang'],24.58662999999623,98.68933999999778
+Enschede,NL,383681,['Nordhorn' 'Hardenberg' 'Almelo' 'Gronau' 'Lingen' 'Hengelo'],52.218329999997785,6.895830000000182
+Morioka,JP,242327,['Hanamaki' 'Kitakami' 'Takizawa'],39.70000000000155,141.1500000000039
+Sanliurfa,TR,78808,['Akcakale' 'Suruc'],37.16708000000109,38.79392000000007
+Nantes,FR,206360,['Saint-Herblain' 'Saint-Nazaire' 'Reze' 'Cholet'],47.21724999999894,-1.5533600000032388
+Kahta,TR,442472,['Adiyaman' 'Siverek'],37.78552000000026,38.62369999999856
+Providence,US,323560,['New Bedford' 'Fall River' 'Cranston' 'East Providence'],41.82398999999874,-71.4128300000035
+Szczecin,PL,105574,['Stargard' 'Police'],53.428940000001035,14.55301999999707
+Akita,JP,206343,['Noshiro' 'Omagari' 'Yokote' 'Yurihonjo'],39.71666999999659,140.11666999999863
+Duezce,TR,308681,['Bolu' 'Akcakoca' 'Eregli'],40.838890000000426,31.16389000000368
+Magdeburg,DE,266580,['Halberstadt' 'Neue Neustadt'],52.12773000000212,11.629160000004443
+Xingyi,CN,177995,['Anlong' 'Xingren'],25.096170000001987,104.90639000000388
+Corlu,TR,297420,['Luleburgaz' 'Cerkezkoey' 'Tekirdag'],41.1591700000018,27.799999999999955
+Wulingyuan,CN,441804,['Zhangjiajie'],29.3493599999978,110.54407000000008
+Al Hoceima,MA,95827,['Imzouren' 'Tirhanimine'],35.2516499999988,-3.9372299999999956
+A Coruna,ES,243277,['Santiago de Compostela' 'Ferrol' 'Oleiros' 'Naron'],43.37134999999823,-8.39599999999708
+Yizhou,CN,330131,['Hechi'],24.500000000001872,108.66667000000272
+Lublin,PL,125643,['Krasnik' 'Swidnik' 'Pulawy'],51.249999999999574,22.56667000000141
+Elazig,TR,35161,['Tunceli'],38.67430999999947,39.22321000000327
+Verona,IT,219132,['Rovereto' 'Vicenza' 'Mantova' 'Schio'],45.438540000000245,10.993799999999181
+Chifeng,CN,127900,['Mujiayingzi' 'Pingzhuang'],42.2683300000026,118.9636100000037
+Saarbruecken,DE,291415,"['Neunkirchen' 'Pirmasens' 'Voelklingen' 'Saarlouis' 'Sankt Ingbert'
+ 'Homburg' 'Zweibruecken']",49.232620000000196,7.009820000004447
+Jayapura,ID,62248,['Abepura'],-2.533710000002934,140.71813000000293
+Karlsruhe,DE,181018,['Rastatt' 'Baden-Baden' 'Ettlingen' 'Haguenau'],49.00936999999998,8.404440000003412
+Oxnard,US,256219,['Camarillo' 'Santa Barbara' 'Ventura'],34.197499999996985,-119.17705000000446
+Vigo,ES,163819,['Pontevedra' 'Ponte de Lima' 'Vilagarcia de Arousa'],42.23281999999822,-8.722639999999641
+Aydin,TR,297946,['OEdemis' 'Milas' 'Soeke' 'Nazilli'],37.84500999999897,27.839629999998717
+Al Kharj,SA,35371,['Ad Dilam'],24.1554100000002,47.334570000003914
+Fukui-shi,JP,210526,['Takefu' 'Tsuruga' 'Sabae'],36.06442999999677,136.2225699999994
+Bakersfield,US,85417,['Delano' 'Oildale'],35.37329000000349,-119.01870999999731
+Arhus,DK,173623,['Randers' 'Horsens' 'Silkeborg'],56.15674000000074,10.210759999997071
+Swindon,GB,248863,['Gloucester' 'Cheltenham'],51.55797000000151,-1.7811599999968815
+Strasbourg,FR,173087,['Offenburg' 'Schiltigheim' 'Lahr' 'Kehl'],48.58391999999786,7.745529999999782
+Tri-Cities,US,202595,['Pasco' 'Richland' 'Kennewick'],46.245400000000494,-119.19616999999576
+Leskovac,RS,346877,['Pirot' 'Vranje' 'Nis'],42.99805999999703,21.94610999999848
+Des Moines,US,229999,['Ames' 'Ankeny' 'West Des Moines' 'Urbandale'],41.60054000000331,-93.6091100000042
+Messina,IT,217053,['Reggio Calabria' 'Barcellona Pozzo di Gotto'],38.193940000000566,15.552560000001483
+Kragujevac,RS,284550,['Cacak' 'Trstenik' 'Kraljevo' 'Jagodina'],44.01666999999893,20.916670000000526
+Bordeaux,FR,170314,['Talence' 'Merignac' 'Pessac'],44.840439999997265,-0.5804999999955505
+McAllen,US,280889,['Mission' 'San Juan' 'Pharr' 'Edinburg'],26.203409999997714,-98.23000999999846
+Goksun,TR,384953,['Kahramanmaras'],38.02096000000055,36.49729999999691
+Oued Zem,MA,334072,['Beni Mellal' 'Khouribga'],32.86269999999711,-6.573590000002198
+Nukus,UZ,83200,['Manghit' 'Xo`jayli Shahri'],42.45305999999839,59.610279999995875
+Pittsburgh,US,109458,['Bethel Park' 'Penn Hills' 'Mount Lebanon'],40.44061999999891,-79.99589000000246
+Gangneung,KR,232320,['Donghae City' 'Santyoku' 'Sokcho'],37.75266000000137,128.87238999999855
+Charleston,US,279102,['Goose Creek' 'Summerville' 'North Charleston' 'Mount Pleasant'],32.7765700000031,-79.93092000000102
+Little Rock,US,210433,['Benton' 'North Little Rock' 'Pine Bluff' 'Conway'],34.74647999999946,-92.28959000000006
+Cordoba,ES,82648,['Ecija' 'Lucena'],37.89154999999725,-4.772750000003625
+Usak,TR,34909,['Simav'],38.673510000000505,29.4058000000014
+Kiziltepe,TR,250913,['Nusaybin' 'Mardin' 'Yesilli'],37.18835999999811,40.57723000000409
+Lijiang,CN,188284,['Chenghai' 'Yongbei' 'Sanchuan' 'Shunzhou'],26.868789999999528,100.22071999999775
+Tokat,TR,268614,['Erbaa' 'Turhal' 'Zile' 'Niksar'],40.313889999996675,36.55443999999756
+Port Saint Lucie,US,232823,"['The Acreage' 'Palm Beach Gardens' 'Fort Pierce' 'Jupiter'
+ 'Riviera Beach']",27.29392999999728,-80.35032999999555
+Livorno,IT,236912,['Massa' 'Pisa' 'Viareggio'],43.54426999999955,10.326150000000343
+Grand Rapids,US,198775,['Wyoming' 'Kentwood' 'Muskegon' 'Holland'],42.96336000000214,-85.66808999999702
+Youssoufia,MA,328207,['Safi' 'Sidi Bennour'],32.246340000001176,-8.5294099999995
+Rzeszow,PL,234128,['Mielec' 'Jaslo' 'Jaroslaw' 'Krosno' 'Debica'],50.04132000000183,21.9990099999988
+Reno,US,150615,['Sparks' 'Carson City'],39.529629999998356,-119.81379999999889
+Groningen,NL,158300,['Emden' 'Drachten' 'Assen'],53.21916999999937,6.566669999995815
+Afyonkarahisar,TR,133066,['Cay' 'Sandikli' 'Bolvadin'],38.75667000000347,30.543330000000747
+Bukhara,UZ,103370,"['Kogon Shahri' ""G'ijduvon Shahri""]",39.77471999999893,64.42860999999628
+Palencia,ES,299265,['Valladolid'],42.00955000000047,-4.524059999998048
+Asahikawa,JP,45131,['Takikawa'],43.77062999999917,142.36488999999636
+Boise,US,232264,['Nampa' 'Caldwell' 'Meridian'],43.613499999998474,-116.20345000000336
+Panshi,CN,295981,['Huadian' 'Yantongshan' 'Meihekou'],42.94221999999792,126.05611000000108
+Geneve,CH,188343,['Annecy' 'Lausanne'],46.20221999999819,6.145689999997184
+Chattanooga,US,187877,['East Chattanooga' 'Dalton'],35.045630000000486,-85.30967999999896
+Trabzon,TR,119820,['Akcaabat' 'Besikduzu' 'Vakfikebir'],41.00500000000262,39.72694000000061
+Ulm,DE,242009,"['Aalen' 'Biberach an der Riss' 'Neu-Ulm' 'Heidenheim an der Brenz'
+ 'Memmingen']",48.398409999997554,9.9915500000042
+Hakodate,JP,84181,['Hokuto' 'Kamiiso'],41.775829999999765,140.73667000000017
+Neumuenster,DE,279648,['Kiel' 'Itzehoe'],54.07476999999842,9.981950000000744
+San Sebastian,ES,173564,['Irun' 'Errenteria' 'Biarritz' 'Anglet'],43.31282999999804,-1.9749900000017304
+Shache,CN,229358,"['Zepu' 'Huangdi' 'Elixku' 'Baishikante' ""Tage'erqi"" 'Mixia']",38.41666999999788,77.24055999999734
+Spokane,US,144041,"[""Coeur d'Alene"" 'Spokane Valley']",47.6596599999986,-117.42908000000371
+Baturaja,ID,222493,['Prabumulih' 'Tanjungagung' 'Lahat'],-4.128909999995629,104.1669499999965
+Corum,TR,87101,['Merzifon' 'Osmancik'],40.548889999998735,34.95332999999773
+Almeria,ES,167375,['El Ejido' 'Roquetas de Mar'],36.83814000000221,-2.4597400000013767
+Karamay,CN,93697,['Baijiantan'],45.58472999999984,84.88723999999637
+Pulandian,CN,250591,['Wafangdian'],39.39528000000251,121.96694000000225
+Urganch,UZ,208398,"['Beruniy' ""Novyy Turtkul'"" 'Xiva']",41.55339000000031,60.620570000000036
+Legnica,PL,245645,['Walbrzych' 'Lubin' 'Boleslawiec'],51.21005999999784,16.161900000001722
+Qarshi,UZ,68900,['Koson'],38.86055999999913,65.78904999999807
+Zwickau,DE,247220,['Chemnitz'],50.72723999999815,12.488390000001708
+Fuyu,CN,206908,['Dalai' 'Songyuan'],45.1833300000009,124.8166699999994
+Madison,US,96488,['Sun Prairie' 'Janesville'],43.073050000002496,-89.40122999999701
+Balikesir,TR,106697,['Gonen' 'Soma'],39.64917000000022,27.886109999998073
+Pescara,IT,220973,['Montesilvano Marina' 'Chieti' 'Vasto' 'Lanciano' 'Teramo'],42.45839999999697,14.20282999999614
+Albany,US,239107,['Schenectady' 'West Albany' 'Clifton Park' 'Pittsfield'],42.65257999999818,-73.75623000000388
+Fort Collins,US,176065,['Greeley' 'Loveland'],40.58525999999957,-105.08441999999557
+Zrenjanin,RS,257335,['Novi Sad' 'Kikinda'],45.38361000000093,20.381939999999513
+Foggia,IT,195129,['Lucera' 'Manfredonia' 'Cerignola' 'San Severo'],41.45845000000184,15.551879999999144
+Graz,AT,32912,['Jakomini'],47.06666999999722,15.44999999999931
+Larisa,GR,180490,['Trikala' 'Karditsa' 'Volos'],39.63688999999807,22.417609999998227
+Louisville,US,83692,['Jeffersonville' 'New Albany'],38.25424000000152,-85.75941000000384
+Grenoble,FR,165258,"[""Saint-Martin-d'Heres"" 'Romans-sur-Isere' 'Chambery' 'Echirolles']",45.17868999999693,5.71478999999558
+Wangkui,CN,252245,['Suihua'],46.83214000000204,126.47657000000163
+Bergen,NO,35638,['Nesttun'],60.39299000000109,5.324149999999933
+Catanzaro,IT,238956,['Lamezia Terme' 'Cosenza' 'Crotone' 'Nicastro'],38.88247000000343,16.600859999996196
+Pangkalpinang,ID,100750,['Sungailiat'],-2.1291399999982983,106.11377000000404
+Huntsville,US,102399,['Decatur' 'Madison'],34.73039999999789,-86.58594000000055
+Singkawang,ID,81764,['Pemangkat' 'Sungai Raya'],0.909250000002713,108.98462999999705
+Kassel,DE,122149,['Goettingen'],51.31667000000191,9.49999999999911
+Sibolga,ID,225105,['Padangsidempuan'],1.740160000002883,98.78117000000186
+Rochester,US,94273,['Henrietta' 'Irondequoit'],43.15477999999971,-77.61556000000205
+Isparta,TR,130795,['Burdur' 'Dinar'],37.76443999999856,30.552219999999377
+Mut,TR,250705,['Silifke' 'Karaman'],36.64388999999713,33.438850000003086
+Tarakan,ID,56569,['Tanjung Selor'],3.3133200000020295,117.59151999999959
+Sabang,ID,255029,['Banda Aceh'],5.889690000004342,95.31644000000348
+Yushu,CN,172206,['Wuchang' 'Shulan'],44.827509999999194,126.54062999999965
+Caen,FR,185972,['Le Havre'],49.18585000000226,-0.359120000002871
+Plock,PL,168662,['Kutno' 'Wloclawek'],52.546820000001176,19.70638000000224
+Evreux,FR,234475,['Rouen'],49.02414000000116,1.1508200000025592
+Polewali,ID,225337,['Parepare' 'Majene'],-3.4323999999980734,119.3434999999996
+Gela,IT,215214,['Licata' 'Favara' 'Vittoria' 'Canicatti' 'Caltanissetta'],37.073809999998424,14.24038000000254
+Appleton,US,214695,['Green Bay' 'Fond du Lac' 'Oshkosh'],44.26192999999867,-88.41538000000195
+Narbonne,FR,234387,['Beziers' 'Carcassonne' 'Perpignan'],43.183960000002585,3.001410000001444
+Guercif,MA,224408,['Taourirt' 'Taza'],34.22568000000244,-3.353609999997932
+Tottori,JP,126906,['Kurayoshi' 'Toyooka'],35.500000000000945,134.2333299999959
+Indio,US,190806,['Coachella' 'La Quinta' 'Palm Desert' 'Cathedral City'],33.720700000000825,-116.21677000000008
+Perugia,IT,157652,['Foligno' 'Arezzo'],43.11220000000148,12.388780000000972
+Norwich,GB,134379,['Great Yarmouth' 'Lowestoft'],52.62783000000243,1.298340000004143
+Bireun,ID,229106,['Reuleuet' 'Lhokseumawe'],5.203000000001162,96.70089999999759
+Ksar El Kebir,MA,167978,['Ouezzane' 'Larache'],35.000440000003536,-5.903780000004377
+Edirne,TR,94693,['Uzunkoeprue' 'Kirklareli'],41.67719000000302,26.555969999995963
+Metz,FR,149369,['Nancy' 'Thionville'],49.11910999999986,6.172690000002409
+Tarragona,ES,139540,['Reus' 'Cambrils'],41.11905000000215,1.245440000003821
+Greenville,US,179142,['Goldsboro' 'Rocky Mount' 'Wilson' 'Spartanburg'],35.612659999996886,-77.36634999999838
+Taranto,IT,71100,['Francavilla Fontana' 'Martina Franca'],40.46437999999686,17.247070000000495
+Dunhua,CN,120642,['Dashitou' 'Huangnihe'],43.36953999999959,128.2286099999976
+Bolzano,IT,161760,['Trento' 'Merano'],46.49066999999942,11.339819999996593
+Fayetteville,US,185517,['Springdale' 'Bentonville' 'Rogers'],36.062579999999016,-94.15742999999729
+Shreveport,US,68094,['Bossier City'],32.52515000000211,-93.75018000000233
+Sabt Alalayah,SA,163770,['Al Bahah' 'Bariq'],19.57730000000172,41.96357000000098
+Palopo,ID,78462,['Masamba' 'Rantepao'],-2.9925000000011797,120.1969400000031
+Norrkoeping,SE,166673,['Linkoeping'],58.59419000000008,16.182599999997944
+Savannah,US,111009,['Hilton Head' 'Hilton Head Island' 'Hinesville'],32.08354000000281,-81.09982999999954
+Odessa,US,132950,['Midland'],31.845679999998964,-102.3676399999987
+Nador,MA,122405,['Melilla' 'Al Aaroui'],35.168129999997454,-2.933520000001043
+Jaen,ES,136098,['Ubeda' 'Andujar' 'Linares'],37.76921999999845,-3.790280000000638
+Reims,FR,51257,['Chalons-en-Champagne'],49.26526000000272,4.02852999999617
+Merida,ES,184125,['Don Benito' 'Badajoz'],38.916109999997616,-6.343660000003073
+Steyr,AT,204846,['Linz'],48.04273999999888,14.421269999997191
+Bern,CH,120745,['La Chaux-de-Fonds' 'Thun' 'Koeniz'],46.94809000000205,7.447439999995892
+Karabuek,TR,116934,['Bartin' 'Safranbolu'],41.20487999999897,32.627680000001114
+Cedar Rapids,US,111550,['Iowa City' 'Marion'],42.00833000000127,-91.64406999999892
+Sereflikochisar,TR,197737,['Kulu' 'Kirsehir'],38.93924999999722,33.53859999999744
+Sofifi,ID,205001,['Ternate'],0.7372900000001402,127.55879999999976
+Burgos,ES,60000,['Gamonal'],42.341060000000205,-3.701839999998456
+Trieste,IT,34428,['Gorizia'],45.64952999999739,13.7767800000004
+Coimbra,PT,130648,['Leiria' 'Figueira da Foz' 'Santo Antonio dos Olivais'],40.20563999999867,-8.419550000004431
+Prattville,US,200603,['Montgomery'],32.46401999999625,-86.45969999999825
+Nowy Sacz,PL,151562,['Nowy Targ' 'Tarnow'],49.62176999999716,20.697050000000694
+South Bend,US,133592,['Goshen' 'Mishawaka' 'Elkhart'],41.68338000000167,-86.2500100000022
+Tours,FR,91126,['Joue-les-Tours' 'Blois'],47.39483999999979,0.7039800000031554
+Bekobod,UZ,134598,['Yangiyer' 'Guliston'],40.22083000000145,69.26972000000325
+Sandnes,NO,144877,['Stavanger'],58.85243999999814,5.735209999995594
+Ruteng,ID,188724,['Labuan Bajo'],-8.61139000000429,120.46444000000129
+Raha,ID,159248,['Baubau'],-4.8379999999989245,122.72089999999778
+Fredrikstad,NO,145141,['Sarpsborg' 'Moss' 'Tonsberg'],59.218099999999225,10.92979999999711
+Salinas,US,70487,['Hollister' 'Seaside'],36.67774000000243,-121.65549999999917
+Torrelavega,ES,172044,['Santander'],43.34942999999901,-4.047850000004021
+Kalisz,PL,117334,['Ostrow Wielkopolski' 'Sieradz'],51.761090000000145,18.091020000000647
+Gulin,CN,108352,['Xuyong'],28.042229999999762,105.810380000002
+Tsuruoka,JP,99341,['Sakata'],38.721669999998845,139.82166999999876
+Rethymno,GR,191064,['Irakleion' 'Chania'],35.36554999999782,24.4823200000002
+Cizre,TR,142460,['Silopi' 'Sirnak'],37.33024000000276,42.184840000002524
+Fredericia,DK,180863,['Odense'],55.56568000000194,9.752570000002192
+Davenport,US,116806,['Moline' 'Bettendorf' 'Rock Island'],41.52363999999887,-90.57763999999598
+Regensburg,DE,89317,['Amberg' 'Straubing'],49.015130000001825,12.101610000001909
+Cagliari,IT,66620,"[""Quartu Sant'Elena""]",39.230540000001156,9.119169999997336
+Jizzax,UZ,36500,['Dashtobod'],40.123410000000064,67.82841999999735
+Menglang,CN,128774,['Zhutang' 'Qianliu' 'Shangyun'],22.562140000000394,99.91028999999736
+Patra,GR,46899,['Agrinio'],38.24444000000134,21.734440000000387
+Navoiy,UZ,70607,['Nurota' 'Oqtosh'],40.084439999997485,65.37917000000118
+Macon,US,120741,['Warner Robins' 'Chalon-sur-Saone'],32.84068999999864,-83.63239999999664
+Mengmao,CN,98640,['Zhangfeng' 'Nongzhang'],24.00139000000331,97.86499000000171
+Dompu,ID,155140,['Bima'],-8.536499999997995,118.46340000000103
+Otofuke,JP,165851,['Obihiro'],42.99167000000115,143.20027999999823
+Brest,FR,63849,['Quimper'],48.390290000002274,-4.486279999999574
+Jizan,SA,103279,['Sabya' 'Abu `Arish'],16.889170000003805,42.55111000000385
+Patnos,TR,120390,['Agri'],39.22493000000205,42.85693000000027
+Ostroda,PL,171803,['Olsztyn'],53.696710000001964,19.964860000000037
+Palm Bay,US,84678,['Melbourne'],28.034459999998205,-80.58865999999772
+Clay,US,144142,['Syracuse'],43.18589999999698,-76.17242999999752
+Innsbruck,AT,67631,['Hoetting' 'Pradl'],47.26265999999873,11.394540000003706
+Clarksville,US,32205,['Hopkinsville'],36.529769999999196,-87.359449999996
+Zielona Gora,PL,79133,['Zary' 'Nowa Sol'],51.935479999997355,15.506430000004121
+Terni,IT,86202,['Viterbo' 'Rieti'],42.56334999999956,12.643290000002803
+Oroqen Zizhiqi,CN,135760,['Jiagedaqi'],50.56667000000169,123.71666999999583
+Marsala,IT,119065,['Mazara del Vallo' 'Trapani'],37.799199999999935,12.436700000002645
+Wuyishan,CN,59832,['Pucheng'],27.75994999999647,118.03065999999997
+Santa Maria,US,91503,['San Luis Obispo' 'Lompoc'],34.95303000000324,-120.43571999999754
+Eskilstuna,SE,127799,['Vaesteras'],59.36661000000172,16.507699999998902
+Fargo,US,75602,['West Fargo' 'Moorhead'],46.87719000000124,-96.78980000000188
+Calais,FR,118300,['Boulogne-sur-Mer' 'Dunkerque'],50.951939999998224,1.8563499999991608
+Cimin,TR,150714,['Erzincan'],39.709470000000074,39.70015000000378
+Bryan,US,107889,['College Station'],30.674360000003773,-96.36995999999873
+Gulfport,US,116966,['Biloxi' 'West Gulfport'],30.36742000000378,-89.09282000000198
+Yozgat,TR,100388,['Sorgun' 'Sungurlu'],39.81999999999847,34.804439999999616
+Ardesen,TR,119828,['Rize'],41.190639999998666,40.979349999996984
+Wuerzburg,DE,54012,['Schweinfurt'],49.7939099999983,9.95121000000061
+Tyler,US,82287,['Longview'],32.35126000000016,-95.30105999999809
+El Jadid,MA,37140,['Azemmour'],33.25681999999897,-8.508820000003396
+Lhasa,CN,62400,['Deqen'],29.650000000003754,91.09999999999799
+Jiaohe,CN,56992,['Baishishan'],43.721329999997145,127.33473000000019
+Evansville,US,59042,['Owensboro'],37.97476000000055,-87.55584999999782
+Lianhe,CN,57318,['Langxiang'],47.13332999999705,129.2742599999977
+Ende,ID,87720,['Maumere'],-8.843199999995575,121.66229999999562
+Dogubayazit,TR,101700,['Igdir'],39.546940000001655,44.08416999999904
+Sassari,IT,79261,['Monte Rosello' 'Alghero'],40.72585999999834,8.555520000002982
+Derry,GB,87153,['Londonderry County Borough'],54.99810000000181,-7.309340000000842
+Kefamenanu,ID,122386,['Atambua' 'Soe'],-9.446670000004307,124.47806000000398
+Ancona,IT,79236,['Civitanova Marche' 'Jesi'],43.59419999999775,13.503369999998503
+Kolding,DK,107330,['Vejle' 'Hedensted'],55.49040000000185,9.472159999996279
+Lecce,IT,87141,['Brindisi'],40.35480999999813,18.172439999997156
+Leeuwarden,NL,75905,['Sneek' 'Heerenveen'],53.20138999999882,5.80859000000089
+Siirt,TR,53023,['Bitlis'],37.92930000000321,41.94134000000398
+Hailun,CN,57124,['Suiling'],47.44662999999885,126.92475000000404
+Kwidzyn,PL,127602,['Ilawa' 'Grudziadz'],53.72495000000141,18.931139999998447
+Miyang,CN,91750,['Zhongshu'],24.40417000000233,103.44278000000338
+East Lansing,US,115056,['Lansing'],42.736979999997864,-84.48386999999892
+Jalai Nur,CN,54808,['Manzhouli'],49.450000000001666,117.6999999999973
+Cottbus,DE,75733,['Hoyerswerda' 'Eisenhuettenstadt'],51.75769000000028,14.328880000000702
+Klagenfurt am Woerthersee,AT,58882,['Villach'],46.62472000000111,14.305279999998199
+Yebaishou,CN,91418,['Lingyuan'],41.3975000000006,119.64083000000352
+Abashiri,JP,119135,['Kitami'],44.021269999999525,144.26970999999776
+Barabai,ID,92851,['Tanjung' 'Amuntai'],-2.583329999997738,115.3833299999978
+Marburg an der Lahn,DE,74411,['Giessen'],50.80904000000282,8.770690000003084
+Kolobrzeg,PL,107450,['Koszalin'],54.17565000000064,15.583420000002556
+Pordenone,IT,100170,['Udine'],45.95689000000108,12.66050999999867
+Yuksekova,TR,77699,['Hakkari'],37.57361999999725,44.2871599999979
+Sandefjord,NO,84972,['Skien' 'Porsgrunn'],59.131180000001315,10.216649999999115
+Ayvalik,TR,78860,['Burhaniye' 'Edremit'],39.319269999996635,26.69340999999931
+Chengxian Chengguanzhen,CN,78604,['Huixian Chengguanzhen' 'Shili'],33.74774999999635,105.73294000000226
+West Lynchburg,US,79812,['Lynchburg'],37.403199999998776,-79.1780799999993
+Roanoke,US,44215,['Blacksburg'],37.270969999996616,-79.94142999999889
+Manggar,ID,103062,['Tanjung Pandan'],-2.8833300000012665,108.26666999999651
+Dushanzi,CN,72587,['Wusu'],44.333329999997154,84.84999999999764
+Wismar,DE,96641,['Schwerin'],53.893140000000486,11.452860000003133
+Oltinko`l,UZ,80090,['Qunghirot'],43.06873999999929,58.90372000000391
+Ahlat,TR,73222,['Tatvan'],38.74890000000146,42.48007000000344
+Tarbes,FR,82697,['Pau'],43.23406999999949,0.07139000000240926
+Camara de Lobos,PT,100847,['Funchal'],32.65043000000269,-16.97718000000226
+Goerlitz,DE,75219,['Bautzen' 'Zgorzelec'],51.155179999998616,14.988530000002651
+Zamosc,PL,63949,['Chelm'],50.72314000000001,23.2519600000039
+Champaign,US,42311,['Urbana'],40.1164200000025,-88.24337999999692
+Battle Creek,US,76041,['Kalamazoo'],42.31729999999807,-85.17816000000015
+Ciudad Real,ES,51842,['Puertollano'],38.98626000000244,-3.929069999998856
+Poitiers,FR,37210,['Chatellerault'],46.58260999999789,0.343480000002932
+Afsin,TR,80456,['Elbistan'],38.247689999999885,36.91399000000006
+Kingsport,US,66027,['Johnson City'],36.54843000000096,-82.56182000000081
+Longnan,CN,32538,['Heba'],33.39791000000014,104.91703000000352
+Wilkes-Barre,US,77118,['Scranton'],41.245909999997984,-75.88131000000415
+Ostroleka,PL,63723,['Lomza'],53.08621000000212,21.575660000001786
+Lafayette,US,45550,['West Lafayette'],40.41669999999861,-86.87529000000025
+Vannes,FR,58112,['Lorient'],47.656880000000065,-2.7620500000039407
+Stralsund,DE,52731,['Greifswald'],54.30911000000245,13.08179999999599
+Waterloo,US,41255,['Cedar Falls'],42.49276000000182,-92.34296000000333
+East Pensacola Heights,US,53193,['Pensacola'],30.428810000001075,-87.1799700000012
+Drama,GR,58287,['Serres'],41.15283000000186,24.14729999999627
+North La Crosse,US,52306,['La Crosse'],43.84634999999939,-91.24819000000109
+Kavala,GR,48221,['Xanthi'],40.93959000000256,24.406870000003366
+Castres,FR,52409,['Albi'],43.60526999999875,2.2408800000015194
+Montelimar,FR,63864,['Valence'],44.55467999999845,4.754690000001168
+Harrisonburg,US,46597,['Charlottesville'],38.44957000000083,-78.86891999999614
+Alexandroupoli,GR,45631,['Komotini'],40.84994999999757,25.87644000000273
+Seydisehir,TR,44460,['Beysehir'],37.419259999999376,31.845269999997203
+Piombino,IT,60922,['Grosseto'],42.92553999999694,10.525849999996598
+Puerto del Rosario,ES,59127,['Arrecife'],28.50037999999907,-13.86272000000243
+Miyako,JP,43107,['Kamaishi'],39.64690999999917,141.94056999999995
+Beja,PT,55620,['Evora'],38.01506000000063,-7.863229999996474
+Miyakojima,JP,34354,['Hirara'],24.790160000001556,125.31108999999931
+State College,US,45344,['Altoona'],40.79338999999676,-77.85999999999747
+Prescott Valley,US,41899,['Prescott'],34.61001999999819,-112.31572000000097
+Masohi,ID,47653,['Amahai'],-3.298329999996303,128.9688199999968
+El Centro,US,40053,['Calexico'],32.79200000000281,-115.56305000000347
+Trollhaettan,SE,34781,['Uddevalla'],58.28365000000051,12.288640000001317
+Faro,PT,38487,['Portimao'],37.01868999999941,-7.927160000001737
+Lima,US,41149,['Findlay'],40.74254999999742,-84.10522999999858
+Borlaenge,SE,37000,['Falun'],60.48579999999823,15.43713999999573
+Panama City,US,32459,['Santa Rosa Beach'],30.159459999997406,-85.65982999999659
+Lufkin,US,33894,['Nacogdoches'],31.338240000001452,-94.72909999999918
