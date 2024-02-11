@@ -194,4 +194,4 @@ def get_best_of_best(dataset, top_n = 5):
         best_of_best.append(city["max_viable_cities"][:top_n])
     return best_of_best
 
-get_best_of_best(dataset, 5)
+print(get_best_of_best(dataset, 1))
