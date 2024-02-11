@@ -187,7 +187,11 @@ def get_most_viable_for_all(dataset):
         max_viable_cities.append(get_most_viable_data(city_item))
     return max_viable_cities
 
-
-if __name__ == "__main__":
+def get_best_of_best(dataset, top_n = 5):
     max_viable_cities = get_most_viable_for_all(dataset)
-    print(max_viable_cities)
+    best_of_best = []
+    for city in max_viable_cities:
+        best_of_best.append(city["max_viable_cities"][:top_n])
+    return best_of_best
+
+get_best_of_best(dataset, 5)
