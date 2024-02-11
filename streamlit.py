@@ -323,7 +323,7 @@ if __name__ == "__main__":
 
     st.title("City Transportation Connect")
     st.caption(
-        "Determine which two cities are best to connect given how important you want the number of people connected or the distance between them"
+        "Determine which two cities are best to connect given how important you want the number of people connected or the distance between them."
     )
     st.caption("GitHub Repo: https://github.com/Nicholas-Polimeni/ml-hsr")
 
